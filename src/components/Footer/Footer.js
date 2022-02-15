@@ -33,16 +33,16 @@ return (
 		<Row>
 		<Column>
 			<Heading>SEDES</Heading>
-			<FooterLink href="#">USA</FooterLink>
-			<FooterLink href="#">Uruguay</FooterLink>
-			<FooterLink href="#">Republica Dominicana</FooterLink>
-			<FooterLink href="#">Costa Rica</FooterLink>
-			<FooterLink href="#">Hong Kong</FooterLink>
-			<FooterLink href="#">Panama</FooterLink>
-			<FooterLink href="#">Honduras</FooterLink>
-			<FooterLink href="#">El Salvador</FooterLink>
-			<FooterLink href="#">Guatemala</FooterLink>
-			<FooterLink href="#">Uruguay</FooterLink>
+			<FooterLink href="https://www.solutionboxusa.com/" target='_blank'>USA</FooterLink>
+			<FooterLink href="https://www.solutionbox.com.uy/" target='_blank'>Uruguay</FooterLink>
+			<FooterLink href="https://www.solutionbox.com.do/" target='_blank'>Republica Dominicana</FooterLink>
+			<FooterLink href="https://www.solutionbox.cr/" target='_blank'>Costa Rica</FooterLink>
+			<FooterLink href="https://www.solutionbox.com.hk/" target='_blank'>Hong Kong</FooterLink>
+			<FooterLink href="http://www.solutionbox.com.pa/" target='_blank'>Panama</FooterLink>
+			<FooterLink href="http://www.solutionbox.com.hn/" target='_blank'>Honduras</FooterLink>
+			<FooterLink href="http://www.solutionbox.com.sv/" target='_blank'>El Salvador</FooterLink>
+			<FooterLink href="https://www.solutionbox.com.ar/" target='_blank'>Argentina</FooterLink>
+			<FooterLink href="http://www.solutionbox.com.py/" target='_blank'>Paraguay</FooterLink>
 		</Column>
 		<Column>
 			<Heading>SOLUTION</Heading>
@@ -53,7 +53,7 @@ return (
 		</Column>
 		<Column>
 			<Heading>WEB</Heading>
-			<FooterLink href="#">Catalogo digital</FooterLink>
+			<FooterLink href="http://www.solutionboxusa.com/downloads/catalogo-SB-Group.pdf">Catalogo digital</FooterLink>
 			<FooterLink href="#">Cursos</FooterLink>
 			<FooterLink href="#">Seminarios</FooterLink>
 			<FooterLink href="#">Alta usuarios</FooterLink>
@@ -61,7 +61,7 @@ return (
 		<Column>
 
 			<Heading>CONTACTO</Heading>
-			<FooterLink href="#">
+			<FooterLink href="https://www.facebook.com/solutionbox.guatemala/" target='_blank'>
 			<FontAwesomeIcon icon={faFacebook} className="iconos"/>
 				<span style={{ marginLeft: "10px" }}>
 				Facebook
@@ -69,7 +69,7 @@ return (
 			</FooterLink>
 
 
-			<FooterLink href="#">
+			<FooterLink href="https://www.instagram.com/solutionbox.guatemala/" target='_blank'>
 			<FontAwesomeIcon icon={faInstagram} className="iconos"/>
 				<span style={{ marginLeft: "10px" }}>
 				Instagram
@@ -77,7 +77,7 @@ return (
 			</FooterLink>
 
 
-			<FooterLink href="#">
+			<FooterLink href="https://twitter.com/solutionboxusa" target='_blank'>
 			<FontAwesomeIcon icon={faTwitter} className="iconos"/>
 				<span style={{ marginLeft: "10px" }}>
 				Twitter
@@ -85,7 +85,7 @@ return (
 			</FooterLink>
 
 
-			<FooterLink href="#">
+			<FooterLink href="https://www.youtube.com/channel/UCxWedPaJvnyZXCC7f65cdzg" target='_blank'>
 			<FontAwesomeIcon icon={faYoutube} className="iconos"/>
 				<span style={{ marginLeft: "10px" }}>
 				Youtube

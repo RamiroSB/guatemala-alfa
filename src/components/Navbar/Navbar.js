@@ -62,9 +62,11 @@ export default class Barra1 extends Component {
           <NavDropdown.Item href="#action5">ALTA USUARIOS</NavDropdown.Item>
         </NavDropdown>
 
-        <Nav.Link href="#" id="navbarSinScroll">
-          CAPACITACIONES
-        </Nav.Link>
+        <NavDropdown title="EVENTOS" id="navbarScrollingDropdown">
+          <NavDropdown.Item href="#action3">CAPACITACIONES</NavDropdown.Item>
+          <NavDropdown.Item href="https://www.youtube.com/channel/UCxWedPaJvnyZXCC7f65cdzg">YOUTUBE</NavDropdown.Item>
+          <NavDropdown.Item href="#action5">WEBINAR</NavDropdown.Item>
+        </NavDropdown>
 
         <NavDropdown title="LINKS UTILES" id="navbarScrollingDropdown">
           <NavDropdown.Item href="#action3">SUCRIBITE A NUESTRO NEWSLETTER</NavDropdown.Item>
@@ -74,8 +76,14 @@ export default class Barra1 extends Component {
           <NavDropdown.Item href="#action5">CONDICIONES RMA</NavDropdown.Item>
         </NavDropdown>
 
-        {/* <Button variant="outline-danger">REGISTRARSE</Button> */}
+        <NavDropdown title="STAFF" id="navbarScrollingDropdown">
+          <NavDropdown.Item href="#action3">GERENCIA</NavDropdown.Item>
+          <NavDropdown.Item href="#action4">VENDEDORES</NavDropdown.Item>
+          <NavDropdown.Item href="#action5">PRODUCT MANAGER</NavDropdown.Item>
+        </NavDropdown>
 
+        <Button variant="outline-danger">REGISTRARSE / LOGIN</Button>
+ 
       </Nav>
       <Form className="d-flex">
         <FormControl
