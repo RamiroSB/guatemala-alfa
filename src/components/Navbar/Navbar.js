@@ -1,14 +1,14 @@
 import React, { Component } from 'react';
 import {Navbar, Nav, NavDropdown, Form, FormControl, Button, Container} from 'react-bootstrap'
 import './Navbar.css'
-
+import { Link } from 'react-router-dom'
 
 export default class Barra1 extends Component {
   render() {
     return <div>
         <Navbar bg="dark" expand="lg" className='barra'>
   <Container fluid>
-    <Navbar.Brand href="#"> <img src='https://www.solutionbox.com.ar/images/sbox-logo.png' alt="Logo de la pagina" className='setlogo'></img></Navbar.Brand>
+    <Navbar.Brand href="/"> <Link to="/"><img src='https://www.solutionbox.com.ar/images/sbox-logo.png' alt="Logo de la pagina" className='setlogo'></img></Link></Navbar.Brand>
     <Navbar.Toggle aria-controls="navbarScroll" />
     <Navbar.Collapse id="navbarScroll">
       <Nav
@@ -77,12 +77,13 @@ export default class Barra1 extends Component {
         </NavDropdown>
 
         <NavDropdown title="STAFF" id="navbarScrollingDropdown">
-          <NavDropdown.Item href="#action3">GERENCIA</NavDropdown.Item>
+          <NavDropdown.Item> <Link to="empleados" className='dropdown-item mod'>GERENCIA</Link></NavDropdown.Item>
           <NavDropdown.Item href="#action4">VENDEDORES</NavDropdown.Item>
           <NavDropdown.Item href="#action5">PRODUCT MANAGER</NavDropdown.Item>
         </NavDropdown>
 
-        <Button variant="outline-danger">REGISTRARSE / LOGIN</Button>
+        
+        
  
       </Nav>
       <Form className="d-flex">
@@ -94,6 +95,9 @@ export default class Barra1 extends Component {
         />
         <Button variant="outline-danger">Buscar</Button>
       </Form>
+
+{/*       <Button variant="outline-danger" className='botonLogin'>REGISTRARSE / LOGIN</Button> */}
+
     </Navbar.Collapse>
   </Container>
 </Navbar>

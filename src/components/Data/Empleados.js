@@ -4,7 +4,7 @@ export const Empleados = [
         nombre: "Raquel Docampo",
         movil: "(011) 6091-1239",
         correo: "raquel_docampo@solutionbox.com.ar",
-        cargo: "Socio Gerente Administrativo",
+        cargo: "Socio Administrativo",
         img: "https://via.placeholder.com/150"
     },
     {
@@ -20,7 +20,7 @@ export const Empleados = [
         nombre: "Guillermo Tesouro",
         movil: "(011) 6091-1260",
         correo: "guillermo_tesouro@solutionbox.com.ar",
-        cargo: "Socio Gerente Comercial",
+        cargo: "Socio Comercial",
         img: "https://via.placeholder.com/150"
     },
     {
@@ -52,7 +52,7 @@ export const Empleados = [
         nombre: "Jose Vasquez",
         movil: "+502 3582 5299",
         correo: "jose_vasquez@solutionbox.com.gt",
-        cargo: "Gerente de Telefonia IP, Networking y Jabra",
+        cargo: "Gerente de Telefonia IP",
         img: "https://via.placeholder.com/150"
     },
     {
