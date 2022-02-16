@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import { Empleadosmapeo } from '../Empleadosmapeo.js/Empleadosmapeo'
 import { PedirDatos } from '../helpers/PedirDatos'
+import { Loader } from '../Loader/Loader'
 
 
 export const EmpleadosLista = () => {
@@ -24,7 +25,7 @@ export const EmpleadosLista = () => {
     return (
              <>
                 {loading 
-                ? <h2> Cargando...</h2> 
+                ? <Loader/>
                 : <Empleadosmapeo empleados={empleados}/>
                     
                 }

@@ -4,6 +4,6 @@ export const PedirDatos = () => {
   return new Promise ((resolve, reject)=> {
       setTimeout(()=>{
           resolve(Empleados)
-      },1000)
+      },0)
   })
 }
