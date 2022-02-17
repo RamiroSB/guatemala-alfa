@@ -6,6 +6,7 @@ import { Slider } from './components/Slider/Slider';
 import { BrowserRouter, Routes, Route, Navigate} from 'react-router-dom'
 import { Newsletter } from './components/pages/Newsletter';
 import { NuestraEmpresa } from './components/pages/NuestraEmpresa';
+import { TrabajaConNosotros } from './components/pages/TrabajaConNosotros';
 
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
               <Route path="/empleados/:catId" element= { <EmpleadosLista/> }/>
               <Route path='/newsletter' element= {<Newsletter/>}/>
               <Route path='/nuestraempresa' element= {<NuestraEmpresa/>}/>
+              <Route path='trabajaconnosotros' element= { <TrabajaConNosotros/> } />
               <Route path='*' element= { <Navigate to ="/" /> } />
             </Routes>
 

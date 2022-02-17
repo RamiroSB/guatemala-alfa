@@ -1,12 +1,10 @@
 import React from 'react'
 import { Enconstruccion } from './Enconstruccion'
 
-
-export const Newsletter = () => {
+export const TrabajaConNosotros = () => {
   return (
-        <div>
-          <Enconstruccion/>
-        </div>
-
+    <div>
+        <Enconstruccion/>
+    </div>
   )
 }

@@ -58,14 +58,14 @@ export default class Barra1 extends Component {
 
         <NavDropdown title="EMPRESA" id="navbarScrollingDropdown">
           <NavDropdown.Item> <Link to="nuestraempresa" className='dropdown-item mod'>LA EMPRESA</Link></NavDropdown.Item>
-          <NavDropdown.Item href="#action4">TRABAJA CON NOSOTROS</NavDropdown.Item>
+          <NavDropdown.Item> <Link to="trabajaconnosotros" className='dropdown-item mod'>TRABAJA CON NOSOTROS</Link></NavDropdown.Item>
           <NavDropdown.Item href="https://www.solutionbox.com.ar/downloads/usuario/Cumplimiento_3.pdf" target="_blank">POLITICA ANTICORRUPCION</NavDropdown.Item>
         </NavDropdown>
 
         <NavDropdown title="EVENTOS" id="navbarScrollingDropdown">
-          <NavDropdown.Item href="#action3">CAPACITACIONES</NavDropdown.Item>
-          <NavDropdown.Item href="https://www.youtube.com/channel/UCxWedPaJvnyZXCC7f65cdzg">YOUTUBE</NavDropdown.Item>
-          <NavDropdown.Item href="#action5">WEBINAR</NavDropdown.Item>
+          <NavDropdown.Item href="https://www.youtube.com/channel/UCxWedPaJvnyZXCC7f65cdzg" target="_blank">CAPACITACIONES</NavDropdown.Item>
+          <NavDropdown.Item href="https://www.youtube.com/channel/UCxWedPaJvnyZXCC7f65cdzg" target="_blank">YOUTUBE</NavDropdown.Item>
+          <NavDropdown.Item href="https://www.youtube.com/channel/UCxWedPaJvnyZXCC7f65cdzg" target="_blank">WEBINAR</NavDropdown.Item>
         </NavDropdown>
 
         <NavDropdown title="LINKS UTILES" id="navbarScrollingDropdown">
@@ -105,11 +105,16 @@ export default class Barra1 extends Component {
         <Button variant="outline-danger">Buscar</Button>
       </Form>
 
-{/*       <Button variant="outline-danger" className='botonLogin'>REGISTRARSE / LOGIN</Button> */}
+      {/* <Nav>
+      <Button variant="outline-danger" className='botonLogin'>REGISTRARSE / LOGIN</Button>
+      </Nav> */}
+
+
 
     </Navbar.Collapse>
   </Container>
 </Navbar>
+
     </div>;
   }
 }
