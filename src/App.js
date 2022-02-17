@@ -26,15 +26,3 @@ function App() {
 }
 
 export default App;
-
-
-
-
-
-{/* <div>
-            <Barra1/>
-            <Slider/> 
-            <Imagenes/>
-            <EmpleadosLista/>
-            <Footer/>
-    </div> */}
