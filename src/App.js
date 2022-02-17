@@ -3,7 +3,9 @@ import { EmpleadosLista } from './components/EmpleadosLista/EmpleadosLista';
 import { Footer } from './components/Footer/Footer';
 import Barra1 from './components/Navbar/Navbar';
 import { Slider } from './components/Slider/Slider';
-import { BrowserRouter, Routes, Route} from 'react-router-dom'
+import { BrowserRouter, Routes, Route, Navigate} from 'react-router-dom'
+import { Newsletter } from './components/pages/Newsletter';
+import { NuestraEmpresa } from './components/pages/NuestraEmpresa';
 
 
 function App() {
@@ -17,6 +19,10 @@ function App() {
             <Routes>
               <Route path="/" element= {<Imagenes/> }/>
               <Route path="/empleados" element= { <EmpleadosLista/> }/>
+              <Route path="/empleados/:catId" element= { <EmpleadosLista/> }/>
+              <Route path='/newsletter' element= {<Newsletter/>}/>
+              <Route path='/nuestraempresa' element= {<NuestraEmpresa/>}/>
+              <Route path='*' element= { <Navigate to ="/" /> } />
             </Routes>
 
         <Footer/>

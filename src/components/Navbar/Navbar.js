@@ -57,9 +57,9 @@ export default class Barra1 extends Component {
         </NavDropdown>
 
         <NavDropdown title="EMPRESA" id="navbarScrollingDropdown">
-          <NavDropdown.Item href="#action3">LA EMPRESA</NavDropdown.Item>
+          <NavDropdown.Item> <Link to="nuestraempresa" className='dropdown-item mod'>LA EMPRESA</Link></NavDropdown.Item>
           <NavDropdown.Item href="#action4">TRABAJA CON NOSOTROS</NavDropdown.Item>
-          <NavDropdown.Item href="#action5">ALTA USUARIOS</NavDropdown.Item>
+          <NavDropdown.Item href="https://www.solutionbox.com.ar/downloads/usuario/Cumplimiento_3.pdf" target="_blank">POLITICA ANTICORRUPCION</NavDropdown.Item>
         </NavDropdown>
 
         <NavDropdown title="EVENTOS" id="navbarScrollingDropdown">
@@ -69,17 +69,16 @@ export default class Barra1 extends Component {
         </NavDropdown>
 
         <NavDropdown title="LINKS UTILES" id="navbarScrollingDropdown">
-          <NavDropdown.Item href="#action3">SUCRIBITE A NUESTRO NEWSLETTER</NavDropdown.Item>
+          <NavDropdown.Item> <Link to="newsletter" className='dropdown-item mod'>SUCRIBITE A NUESTRO NEWSLETTER</Link></NavDropdown.Item>
           <NavDropdown.Item href="#action4">HP ENGAGE & GROW</NavDropdown.Item>
-          <NavDropdown.Item href="#action5">PAGA CON QR DESDE TU CELULAR</NavDropdown.Item>
           <NavDropdown.Item href="#action5">LEGAJO IMPOSITIVO</NavDropdown.Item>
           <NavDropdown.Item href="#action5">CONDICIONES RMA</NavDropdown.Item>
         </NavDropdown>
-
+        
         <NavDropdown title="STAFF" id="navbarScrollingDropdown">
-          <NavDropdown.Item> <Link to="empleados" className='dropdown-item mod'>GERENCIA</Link></NavDropdown.Item>
-          <NavDropdown.Item href="#action4">VENDEDORES</NavDropdown.Item>
-          <NavDropdown.Item href="#action5">PRODUCT MANAGER</NavDropdown.Item>
+          <NavDropdown.Item> <Link to="/empleados/gerencia" className='dropdown-item mod'>GERENCIA</Link></NavDropdown.Item>
+          <NavDropdown.Item> <Link to="/empleados/productmanager" className='dropdown-item mod'>PRODUCT MANAGER</Link></NavDropdown.Item>
+          <NavDropdown.Item> <Link to="/empleados/vendedores" className='dropdown-item mod'>VENDEDORES</Link></NavDropdown.Item>
         </NavDropdown>
 
         <NavDropdown title="SEDES" id="navbarScrollingDropdown">
