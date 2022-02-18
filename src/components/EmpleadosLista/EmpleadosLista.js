@@ -11,6 +11,8 @@ export const EmpleadosLista = () => {
 
     const { catId } = useParams ()
 
+    /* Funcion para validar el staff, coincidiendo la propiedad category con la url  */
+    
     useEffect(()=> {
         setLoading(true)
         PedirDatos()

@@ -1,15 +1,6 @@
 import React from "react";
-import {
-Box,
-Container,
-Row,
-Column,
-FooterLink,
-Heading,
-} from "./FooterStyles";
-
+import {Box, Container, Row, Column, FooterLink, Heading} from "./FooterStyles";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-/* import { ICONO } from "@fortawesome/free-regular-svg-icons"; */
 import { faTwitter, faFacebook, faInstagram, faYoutube } from '@fortawesome/free-brands-svg-icons'
 import './Iconos.css'
 

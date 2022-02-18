@@ -5,9 +5,12 @@ import './EmpleadosmapeoStyle.css'
 export const Empleadosmapeo = ({empleados}) => {
   return (
     <Container className='my-5'>
-          <h2>Empleados Solution Box Guatemala</h2>
+          <h2>Staff Solution Box Guatemala</h2>
         <hr/>
         <Row>
+
+          {/* Mapeo del array de objetos, iterando y mostrando cada propiedad */}
+
         {empleados.map( (persona)=> (
                     <div key={persona.id} className='card' id='cuerpo' style={{width: "15rem", margin: "10px", textAlign: "center"}}>
                         <img src={persona.img} className='imagenPersona' alt="Foto empleado/a"/>

@@ -1,9 +1,6 @@
 import React from 'react';
-import {
-    UncontrolledCarousel
-  } from 'reactstrap';
-  
-  import 'bootstrap/dist/css/bootstrap.min.css';
+import { UncontrolledCarousel } from 'reactstrap';
+import 'bootstrap/dist/css/bootstrap.min.css';
   
 
 export const Slider = () => {

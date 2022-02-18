@@ -14,8 +14,8 @@ export default class Barra1 extends Component {
       <Nav
         className="me-auto my-2 my-lg-0"
         style={{ height: '100%' }}
-
       >
+        
         <NavDropdown title="CATEGORIAS" id="navbarScrollingDropdown" bg="primary">
           <NavDropdown.Item href="#action3">MONITORES </NavDropdown.Item>
           <NavDropdown.Item href="#action4">TECLADOS</NavDropdown.Item>
@@ -58,8 +58,16 @@ export default class Barra1 extends Component {
 
         <NavDropdown title="EMPRESA" id="navbarScrollingDropdown">
           <NavDropdown.Item> <Link to="nuestraempresa" className='dropdown-item mod'>LA EMPRESA</Link></NavDropdown.Item>
+          <NavDropdown.Item> <Link to="contacto" className='dropdown-item mod'>CONTACTO</Link></NavDropdown.Item>
           <NavDropdown.Item> <Link to="trabajaconnosotros" className='dropdown-item mod'>TRABAJA CON NOSOTROS</Link></NavDropdown.Item>
           <NavDropdown.Item href="https://www.solutionbox.com.ar/downloads/usuario/Cumplimiento_3.pdf" target="_blank">POLITICA ANTICORRUPCION</NavDropdown.Item>
+
+          <NavDropdown title="STAFF" id="navbarScrollingDropdown" className='staffEdit' >
+            <NavDropdown.Item> <Link to="/empleados/gerencia" className='dropdown-item mod'>GERENCIA</Link></NavDropdown.Item>
+            <NavDropdown.Item> <Link to="/empleados/productmanager" className='dropdown-item mod'>PRODUCT MANAGER</Link></NavDropdown.Item>
+            <NavDropdown.Item> <Link to="/empleados/vendedores" className='dropdown-item mod'>VENDEDORES</Link></NavDropdown.Item>
+          </NavDropdown>  
+
         </NavDropdown>
 
         <NavDropdown title="EVENTOS" id="navbarScrollingDropdown">
@@ -74,12 +82,14 @@ export default class Barra1 extends Component {
           <NavDropdown.Item href="#action5">LEGAJO IMPOSITIVO</NavDropdown.Item>
           <NavDropdown.Item href="#action5">CONDICIONES RMA</NavDropdown.Item>
         </NavDropdown>
+
         
+        {/* 
         <NavDropdown title="STAFF" id="navbarScrollingDropdown">
           <NavDropdown.Item> <Link to="/empleados/gerencia" className='dropdown-item mod'>GERENCIA</Link></NavDropdown.Item>
           <NavDropdown.Item> <Link to="/empleados/productmanager" className='dropdown-item mod'>PRODUCT MANAGER</Link></NavDropdown.Item>
           <NavDropdown.Item> <Link to="/empleados/vendedores" className='dropdown-item mod'>VENDEDORES</Link></NavDropdown.Item>
-        </NavDropdown>
+        </NavDropdown> */}
 
         <NavDropdown title="SEDES" id="navbarScrollingDropdown">
           <NavDropdown.Item href="https://www.solutionbox.com.ar/" target='_blank'><img src='https://raw.githubusercontent.com/RamiroSB/imagenes/main/argentina.png' alt="Bandera Arg" className='setBanderas'></img>ARGENTINA</NavDropdown.Item>
@@ -93,6 +103,7 @@ export default class Barra1 extends Component {
           <NavDropdown.Item href="http://www.solutionbox.com.sv/" target='_blank'><img src='https://raw.githubusercontent.com/RamiroSB/imagenes/main/elsalvador.png' alt="Bandera El Salvador" className='setBanderas'></img>EL SALVADOR</NavDropdown.Item>
           <NavDropdown.Item href="http://www.solutionbox.com.py/" target='_blank'><img src='https://raw.githubusercontent.com/RamiroSB/imagenes/main/paraguay.png' alt="Bandera Paraguay" className='setBanderas'></img>PARAGUAY</NavDropdown.Item>
         </NavDropdown>
+        
 
       </Nav>
       <Form className="d-flex">

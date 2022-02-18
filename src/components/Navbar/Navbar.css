@@ -51,6 +51,10 @@
     height: 30%;
 }
 
+.staffEdit {
+    padding-left: 7px;
+}
+
 
 @media (min-width: 300px) and (max-width: 1000px ){
     .setBanderas {
