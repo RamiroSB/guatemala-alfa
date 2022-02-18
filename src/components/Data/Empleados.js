@@ -41,7 +41,7 @@ export const Empleados = [
         movil: "+502 4768-5977",
         correo: "lester_munoz@solutionbox.com.gt",
         cargo: "Gerente General",
-        img: "https://www.solutionbox.com.ar/images/staff/sinfoto.png",
+        img: "https://raw.githubusercontent.com/RamiroSB/imagenes/main/Lester.jpeg",
         category: "gerencia"
     },
     {
