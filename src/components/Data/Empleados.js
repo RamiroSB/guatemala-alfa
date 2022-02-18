@@ -23,7 +23,7 @@ export const Empleados = [
         movil: "(011) 6091-1260",
         correo: "guillermo_tesouro@solutionbox.com.ar",
         cargo: "Socio Comercial",
-        img: "https://www.solutionbox.com.ar/images/staff/sinfoto.png",
+        img: "https://raw.githubusercontent.com/RamiroSB/imagenes/main/GuilleT.jpeg",
         category: "gerencia"
     },
     {
@@ -32,7 +32,7 @@ export const Empleados = [
         movil: "(011) 6091-1218",
         correo: "pablo_roust@solutionbox.com.ar",
         cargo: "Director Operativo",
-        img: "https://www.solutionbox.com.ar/images/staff/sinfoto.png",
+        img: "https://raw.githubusercontent.com/RamiroSB/imagenes/main/PabloR.png",
         category: "gerencia"
     },
     {
