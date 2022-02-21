@@ -1,20 +1,20 @@
 export const Empleados = [
     {
-        id: 11,
-        nombre: "Raquel Docampo",
-        movil: "(011) 6091-1239",
-        correo: "raquel_docampo@solutionbox.com.ar",
-        cargo: "Socio Administrativo",
-        img: "https://www.solutionbox.com.ar/images/staff/raquel.png",
-        category: "gerencia"
-    },
-    {
         id: 12,
         nombre: "Federico Freitag",
         movil: "(011) 6091-1243",
         correo: "federico_freitag@solutionbox.com.ar",
         cargo: "CEO - Presidente",
         img: "https://www.solutionbox.com.ar/images/staff/pipo.png",
+        category: "gerencia"
+    },
+    {
+        id: 11,
+        nombre: "Raquel Docampo",
+        movil: "(011) 6091-1239",
+        correo: "raquel_docampo@solutionbox.com.ar",
+        cargo: "Socio Administrativo",
+        img: "https://www.solutionbox.com.ar/images/staff/raquel.png",
         category: "gerencia"
     },
     {
@@ -50,7 +50,7 @@ export const Empleados = [
         movil: "+502 3026 9237",
         correo: "erick_gudiel@solutionbox.com.gt",
         cargo: "Gerente de Lenovo",
-        img: "https://www.solutionbox.com.ar/images/staff/sinfoto.png",
+        img: "https://raw.githubusercontent.com/RamiroSB/imagenes/main/Staff%20resized/Erick-Gudiel%20.png",
         category: "productmanager"
     },
     {
@@ -59,7 +59,7 @@ export const Empleados = [
         movil: "+502 3582 5299",
         correo: "jose_vasquez@solutionbox.com.gt",
         cargo: "Gerente de Telefonia IP",
-        img: "https://www.solutionbox.com.ar/images/staff/sinfoto.png",
+        img: "https://raw.githubusercontent.com/RamiroSB/imagenes/main/Staff%20resized/Jose-Vasquez.png",
         category: "productmanager"
     },
     {
@@ -68,7 +68,7 @@ export const Empleados = [
         movil: "+502 4739 7100",
         correo: "eddy_morales@solutionbox.com.gt",
         cargo: "Gerente de marcas OEM",
-        img: "https://www.solutionbox.com.ar/images/staff/sinfoto.png",
+        img: "https://raw.githubusercontent.com/RamiroSB/imagenes/main/Staff%20resized/Eddy-morales.png",
         category: "productmanager"
     },
     {
@@ -77,7 +77,7 @@ export const Empleados = [
         movil: "+502 3760 6000",
         correo: "carlos_herrera@solutionbox.com.gt",
         cargo: "Gerente de Huawei",
-        img: "https://www.solutionbox.com.ar/images/staff/sinfoto.png",
+        img: "https://raw.githubusercontent.com/RamiroSB/imagenes/main/Staff%20resized/Carlos-Herrera.png",
         category: "productmanager"
     },
     {
@@ -86,7 +86,7 @@ export const Empleados = [
         movil: "+502 4183 2814",
         correo: "Wendy_marroquin@solutionbox.com.gt",
         cargo: "Insales",
-        img: "https://www.solutionbox.com.ar/images/staff/sinfotoM.png",
+        img: "https://raw.githubusercontent.com/RamiroSB/imagenes/main/Staff%20resized/Wendy-Marroquin.png",
         category: "vendedores"
     },
     {
@@ -95,7 +95,7 @@ export const Empleados = [
         movil: "+502 5848 1171",
         correo: "diana_avendano@solutionbox.com.gt",
         cargo: "Insales",
-        img: "https://www.solutionbox.com.ar/images/staff/sinfotoM.png",
+        img: "https://raw.githubusercontent.com/RamiroSB/imagenes/main/Staff%20resized/Diana-Avendano.png",
         category: "vendedores"
     },
     {
@@ -104,16 +104,16 @@ export const Empleados = [
         movil: "+502 4768-5977",
         correo: "josue_vasquez@solutionbox.com.gt",
         cargo: "Insales",
-        img: "https://www.solutionbox.com.ar/images/staff/sinfoto.png",
+        img: "https://raw.githubusercontent.com/RamiroSB/imagenes/main/Staff%20resized/Josue-Vasquez.png",
         category: "vendedores"
     },
     {
         id: 10,
-        nombre: "Edward Mendoza",
+        nombre: "Estuardo Flores",
         movil: "+502 5629 0517",
-        correo: "Edward_mendoza@solutionbox.com.gt",
-        cargo: "Vendedor Departamental",
-        img: "https://www.solutionbox.com.ar/images/staff/sinfoto.png",
+        correo: "Estuardo_flores@solutionbox.com.gt",
+        cargo: "Insales",
+        img: "https://raw.githubusercontent.com/RamiroSB/imagenes/main/Staff%20resized/Estuardo-Flores.png",
         category: "vendedores"
     }
 

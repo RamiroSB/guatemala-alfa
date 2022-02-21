@@ -2,6 +2,11 @@ import React from 'react'
 import "./Form2style.css"
 
 export const Form2 = () => {
+
+    const previeneElEnvio = event => {
+        event.preventDefault()
+    }
+
   return (
     <div className="content">
 
@@ -10,7 +15,7 @@ export const Form2 = () => {
         <div class="contact-wrapper animated bounceInUp">
             <div className="contact-form">
                 <h3>Contacto</h3>
-                <form action="">
+                <form onSubmit={previeneElEnvio}>
                     <p>
                         <label>Nombre</label>
                         <input type="text" name="fullname"/>
@@ -43,10 +48,10 @@ export const Form2 = () => {
                 <ul>
                     <li><i class="fas fa-map-marker-alt"></i> Horario: Lunes a Viernes de 8.30 a 18.30hs</li>
                     <li><i class="fas fa-phone"></i> Teléfono: +54 11 6091-1200</li>
-                    <li><i class="fas fa-envelope-open-text"></i> E-mail: info@solutionbox.com.ar</li>
+                    <li><i class="fas fa-envelope-open-text"></i> E-mail: info@solutionbox.com.gt</li>
                 </ul>
                 <p>Dirección</p>
-                <p>Goncalves Dias 664, (1276) Ciudad Autónoma de Buenos Aires. Argentina. </p>
+                <p>Blvd. Los Proceres 24-69 Zona 10 - Zona Pradera, Torre 4 - Nivel 5, Oficina 510 </p>
             </div>
         </div>
 

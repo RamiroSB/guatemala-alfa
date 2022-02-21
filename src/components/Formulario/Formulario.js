@@ -17,6 +17,10 @@ export const Formulario = () => {
         })
     }
 
+    const previeneEnvio = event => {
+        event.preventDefault()
+    }
+
 
     return (
 
@@ -26,7 +30,7 @@ export const Formulario = () => {
                         <h2>Coloque sus datos!</h2>
                         <hr/>
 
-                        <form onSubmit={""}>
+                        <form onSubmit={previeneEnvio}>
                             <input
                                 onChange={handleInputChange}
                                 name="nombre"
