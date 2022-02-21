@@ -1,26 +1,26 @@
 import React, { useEffect, useState } from 'react'
 import { useParams } from 'react-router-dom'
-import { Empleadosmapeo } from '../Empleadosmapeo/Empleadosmapeo'
-import { PedirDatos } from '../helpers/PedirDatos'
+import { StockMapeo } from '../StockMapeo/StockMapeo'
+import { PedirDatosStock } from '../helpers/PedirDatosStock'
 import { Loader } from '../Loader/Loader'
 
 
-export const EmpleadosLista = () => {
+export const StockLista = () => {
     const [loading, setLoading] = useState(false)
-    const [empleados, setEmpleados] = useState ([])
+    const [stock, setStock] = useState ([])
 
     const { catId } = useParams ()
 
-    /* Funcion para validar el staff, coincidiendo la propiedad category con la url  */
+    /* Funcion para validar el stock, coincidiendo la propiedad category con la url  */
     
     useEffect(()=> {
         setLoading(true)
-        PedirDatos()
+        PedirDatosStock()
             .then( (resp) => {
             if (!catId) {
-                setEmpleados (resp)
+                setStock (resp)
             } else {
-                setEmpleados ( resp.filter (persona => persona.category === catId))
+                setStock ( resp.filter (stock => stock.marca === catId))
             }
         })
         .catch( (error)=> {
@@ -35,7 +35,7 @@ export const EmpleadosLista = () => {
              <>
                 {loading 
                 ? <Loader/>
-                : <Empleadosmapeo empleados={empleados}/>
+                : <StockMapeo stock={stock}/>
                     
                 }
             </>

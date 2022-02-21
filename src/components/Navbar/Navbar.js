@@ -25,35 +25,25 @@ export default class Barra1 extends Component {
         </NavDropdown>
 
         <NavDropdown title="MARCAS" id="navbarScrollingDropdown">
-          <NavDropdown.Item href="#">TP LINK</NavDropdown.Item>
-          <NavDropdown.Item href="#">GRANDSTREAM</NavDropdown.Item>
-          <NavDropdown.Item href="#">UBIQUITI</NavDropdown.Item>
-          <NavDropdown.Item href="#">JABRA</NavDropdown.Item>
-          <NavDropdown.Item href="#">SAMSUNG DISPLAY</NavDropdown.Item>
-          <NavDropdown.Item href="#">QNAP</NavDropdown.Item>
-          <NavDropdown.Item href="#">SEAGATE</NavDropdown.Item>
-          <NavDropdown.Item href="#">MIKROTIK</NavDropdown.Item>
+          <NavDropdown.Item><Link to="/marcas/ADATA" className='dropdown-item mod'>ADATA</Link></NavDropdown.Item>
+          <NavDropdown.Item href="#">AMD</NavDropdown.Item>
+          <NavDropdown.Item href="#">AMERICAN POWER CONVERSION</NavDropdown.Item>
           <NavDropdown.Item href="#">APPLE</NavDropdown.Item>
-          <NavDropdown.Item href="#">YEALINK</NavDropdown.Item>
           <NavDropdown.Item href="#">ARUBA NETWORK WIRED</NavDropdown.Item>
           <NavDropdown.Item href="#">ARUBA WIRELESS</NavDropdown.Item>
-          <NavDropdown.Item href="#">YEASTAR</NavDropdown.Item>
-          <NavDropdown.Item href="#">MERCUSYS</NavDropdown.Item>
-          <NavDropdown.Item href="#">HUAWEI</NavDropdown.Item>
-          <NavDropdown.Item href="#">HYUNDAI</NavDropdown.Item>
-          <NavDropdown.Item href="#">HEWLETT PACKARD SERVERS</NavDropdown.Item>
-          <NavDropdown.Item href="#">HEWLETT PACKARD STORAGE</NavDropdown.Item>
-          <NavDropdown.Item href="#">HEWLETT PACKARD SERVICES</NavDropdown.Item>
-          <NavDropdown.Item href="#">SAMSUNG MONITORS</NavDropdown.Item>
           <NavDropdown.Item href="#">CAMBIUM NETWORKS</NavDropdown.Item>
-          <NavDropdown.Item href="#">HUAWEI SEGURIDAD</NavDropdown.Item>
-          <NavDropdown.Item href="#">LENOVO</NavDropdown.Item>
-          <NavDropdown.Item href="#">PATRIOT MEMORY INC</NavDropdown.Item>
           <NavDropdown.Item href="#">EVGA</NavDropdown.Item>
-          <NavDropdown.Item href="#">AMD</NavDropdown.Item>
-          <NavDropdown.Item href="#">INTEL</NavDropdown.Item>
-          <NavDropdown.Item href="#">ADATA</NavDropdown.Item>
-          <NavDropdown.Item href="#">AMERICAN POWER CONVERSION</NavDropdown.Item>
+          <NavDropdown.Item href="#">GRANDSTREAM</NavDropdown.Item>
+          <NavDropdown.Item href="#">JABRA</NavDropdown.Item>
+          <NavDropdown.Item href="#">LENOVO</NavDropdown.Item>
+          <NavDropdown.Item href="#">MERCUSYS</NavDropdown.Item>
+          <NavDropdown.Item href="#">MIKROTIK</NavDropdown.Item>
+          <NavDropdown.Item href="#">POWERCOLOR</NavDropdown.Item>
+          <NavDropdown.Item href="#">SAMSUNG DISPLAY</NavDropdown.Item>
+          <NavDropdown.Item href="#">SAMSUNG MONITORS</NavDropdown.Item>
+          <NavDropdown.Item href="#">TP LINK</NavDropdown.Item>
+          <NavDropdown.Item href="#">UBIQUITI</NavDropdown.Item>
+          <NavDropdown.Item href="#">YEALINK</NavDropdown.Item>
         </NavDropdown>
 
         <NavDropdown title="EMPRESA" id="navbarScrollingDropdown">
@@ -78,7 +68,6 @@ export default class Barra1 extends Component {
 
         <NavDropdown title="LINKS UTILES" id="navbarScrollingDropdown">
           <NavDropdown.Item> <Link to="newsletter" className='dropdown-item mod'>SUCRIBITE A NUESTRO NEWSLETTER</Link></NavDropdown.Item>
-          <NavDropdown.Item href="#action4">HP ENGAGE & GROW</NavDropdown.Item>
           <NavDropdown.Item href="#action5">LEGAJO IMPOSITIVO</NavDropdown.Item>
           <NavDropdown.Item href="#action5">CONDICIONES RMA</NavDropdown.Item>
         </NavDropdown>

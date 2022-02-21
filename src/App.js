@@ -8,6 +8,7 @@ import { Newsletter } from './components/pages/Newsletter';
 import { NuestraEmpresa } from './components/pages/NuestraEmpresa';
 import { TrabajaConNosotros } from './components/pages/TrabajaConNosotros';
 import { Contacto } from './components/pages/Contacto';
+import { StockLista } from './components/StockLista/StockLista'
 
 
 function App() {
@@ -27,6 +28,7 @@ function App() {
               <Route path='trabajaconnosotros' element= { <TrabajaConNosotros/> } />
               <Route path='contacto' element= { <Contacto/> } />
               <Route path='*' element= { <Navigate to ="/" /> } />
+              <Route path="/marcas/:catId" element= { <StockLista/> }/>
             </Routes>
 
         <Footer/>
