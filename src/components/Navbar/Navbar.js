@@ -26,14 +26,14 @@ export default class Barra1 extends Component {
 
         <NavDropdown title="MARCAS" id="navbarScrollingDropdown">
           <NavDropdown.Item><Link to="/marcas/ADATA" className='dropdown-item mod'>ADATA</Link></NavDropdown.Item>
-          <NavDropdown.Item href="#">AMD</NavDropdown.Item>
-          <NavDropdown.Item href="#">AMERICAN POWER CONVERSION</NavDropdown.Item>
-          <NavDropdown.Item href="#">APPLE</NavDropdown.Item>
-          <NavDropdown.Item href="#">ARUBA NETWORK WIRED</NavDropdown.Item>
-          <NavDropdown.Item href="#">ARUBA WIRELESS</NavDropdown.Item>
-          <NavDropdown.Item href="#">CAMBIUM NETWORKS</NavDropdown.Item>
-          <NavDropdown.Item href="#">EVGA</NavDropdown.Item>
-          <NavDropdown.Item href="#">GRANDSTREAM</NavDropdown.Item>
+          <NavDropdown.Item><Link to="/marcas/AMD" className='dropdown-item mod'>AMD</Link></NavDropdown.Item>
+          <NavDropdown.Item><Link to="/marcas/AMERICAN-POWER-CONVERSION" className='dropdown-item mod'>AMERICAN POWER CONVERSION</Link></NavDropdown.Item>
+          <NavDropdown.Item><Link to="/marcas/APPLE" className='dropdown-item mod'>APPLE</Link></NavDropdown.Item>
+          <NavDropdown.Item><Link to="/marcas/ARUBA-NETWORK-WIRED" className='dropdown-item mod'>ARUBA NETWORK WIRED</Link></NavDropdown.Item>
+          <NavDropdown.Item><Link to="/marcas/ARUBA-WIRELESS" className='dropdown-item mod'>ARUBA WIRELESS</Link></NavDropdown.Item>
+          <NavDropdown.Item><Link to="/marcas/CAMBIUM-NETWORKS" className='dropdown-item mod'>CAMBIUM NETWORKS</Link></NavDropdown.Item>
+          <NavDropdown.Item><Link to="/marcas/EVGA" className='dropdown-item mod'>EVGA</Link></NavDropdown.Item>
+          <NavDropdown.Item><Link to="/marcas/GRANDSTREAM" className='dropdown-item mod'>GRANDSTREAM</Link></NavDropdown.Item>
           <NavDropdown.Item href="#">JABRA</NavDropdown.Item>
           <NavDropdown.Item href="#">LENOVO</NavDropdown.Item>
           <NavDropdown.Item href="#">MERCUSYS</NavDropdown.Item>
