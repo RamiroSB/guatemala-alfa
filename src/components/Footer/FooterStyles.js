@@ -5,7 +5,6 @@ padding: 80px 60px;
 background: black;
 position: absolute;
 width: 100%;
-height:50%;
 
 @media (max-width: 1100px) {
 	padding: 70px 30px;
