@@ -34,16 +34,16 @@ export default class Barra1 extends Component {
           <NavDropdown.Item><Link to="/marcas/CAMBIUM-NETWORKS" className='dropdown-item mod'>CAMBIUM NETWORKS</Link></NavDropdown.Item>
           <NavDropdown.Item><Link to="/marcas/EVGA" className='dropdown-item mod'>EVGA</Link></NavDropdown.Item>
           <NavDropdown.Item><Link to="/marcas/GRANDSTREAM" className='dropdown-item mod'>GRANDSTREAM</Link></NavDropdown.Item>
-          <NavDropdown.Item href="#">JABRA</NavDropdown.Item>
-          <NavDropdown.Item href="#">LENOVO</NavDropdown.Item>
-          <NavDropdown.Item href="#">MERCUSYS</NavDropdown.Item>
-          <NavDropdown.Item href="#">MIKROTIK</NavDropdown.Item>
-          <NavDropdown.Item href="#">POWERCOLOR</NavDropdown.Item>
-          <NavDropdown.Item href="#">SAMSUNG DISPLAY</NavDropdown.Item>
-          <NavDropdown.Item href="#">SAMSUNG MONITORS</NavDropdown.Item>
-          <NavDropdown.Item href="#">TP LINK</NavDropdown.Item>
-          <NavDropdown.Item href="#">UBIQUITI</NavDropdown.Item>
-          <NavDropdown.Item href="#">YEALINK</NavDropdown.Item>
+          <NavDropdown.Item><Link to="/marcas/JABRA" className='dropdown-item mod'>JABRA</Link></NavDropdown.Item>
+          <NavDropdown.Item><Link to="/marcas/LENOVO" className='dropdown-item mod'>LENOVO</Link></NavDropdown.Item>
+          <NavDropdown.Item><Link to="/marcas/MERCUSYS" className='dropdown-item mod'>MERCUSYS</Link></NavDropdown.Item>
+          <NavDropdown.Item><Link to="/marcas/MIKROTIK" className='dropdown-item mod'>MIKROTIK</Link></NavDropdown.Item>
+          <NavDropdown.Item><Link to="/marcas/POWERCOLOR" className='dropdown-item mod'>POWERCOLOR</Link></NavDropdown.Item>
+          <NavDropdown.Item><Link to="/marcas/SAMSUNG-DISPLAY" className='dropdown-item mod'>SAMSUNG DISPLAY</Link></NavDropdown.Item>
+          <NavDropdown.Item><Link to="/marcas/SAMSUNG-MONITORS" className='dropdown-item mod'>SAMSUNG MONITORS</Link></NavDropdown.Item>
+          <NavDropdown.Item><Link to="/marcas/TP-LINK" className='dropdown-item mod'>TP LINK</Link></NavDropdown.Item>
+          <NavDropdown.Item><Link to="/marcas/UBIQUITI" className='dropdown-item mod'>UBIQUITI</Link></NavDropdown.Item>
+          <NavDropdown.Item><Link to="/marcas/YEALINK" className='dropdown-item mod'>YEALINK</Link></NavDropdown.Item>
         </NavDropdown>
 
         <NavDropdown title="EMPRESA" id="navbarScrollingDropdown">
@@ -68,8 +68,8 @@ export default class Barra1 extends Component {
 
         <NavDropdown title="LINKS UTILES" id="navbarScrollingDropdown">
           <NavDropdown.Item> <Link to="newsletter" className='dropdown-item mod'>SUCRIBITE A NUESTRO NEWSLETTER</Link></NavDropdown.Item>
-          <NavDropdown.Item href="#action5">LEGAJO IMPOSITIVO</NavDropdown.Item>
-          <NavDropdown.Item href="#action5">CONDICIONES RMA</NavDropdown.Item>
+          <NavDropdown.Item href="https://www.solutionbox.com.ar/info-impositiva">LEGAJO IMPOSITIVO</NavDropdown.Item>
+          <NavDropdown.Item href="https://www.solutionbox.com.ar/rma">CONDICIONES RMA</NavDropdown.Item>
         </NavDropdown>
 
         

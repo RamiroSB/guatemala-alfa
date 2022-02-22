@@ -482,6 +482,689 @@ export const Stock = [
         descripcion: "TELEFONO IP GS INALA.WIFI 2SIP,ANDROID",
         marca: "GRANDSTREAM",
         stock: "3 UNIDADES"
-    }
+    },
 
+    {
+        id: 53,
+        img: "https://via.placeholder.com/150C/O%20https://placeholder.com/",
+        codigo: "GRP2615",
+        descripcion: "TEL IP GS PANTCOLOR 10 LINES POE",
+        marca: "GRANDSTREAM",
+        stock: "2 UNIDADES"
+    },
+
+    {
+        id: 54,
+        img: "https://via.placeholder.com/150C/O%20https://placeholder.com/",
+        codigo: "GXP-2160",
+        descripcion: "IP PHONE GRANDSTREAM 6SIP 24BLF RECEPCIO",
+        marca: "GRANDSTREAM",
+        stock: "2 UNIDADES"
+    },
+
+    {
+        id: 55,
+        img: "https://via.placeholder.com/150C/O%20https://placeholder.com/",
+        codigo: "UCM6202",
+        descripcion: "PBX IP GS 2FXS/2FX0 500USUARIOS 50TRUNK",
+        marca: "GRANDSTREAM",
+        stock: "2 UNIDADES"
+    },
+
+    {
+        id: 56,
+        img: "https://via.placeholder.com/150C/O%20https://placeholder.com/",
+        codigo: "UCM6302A",
+        descripcion: "IP PBX GRANDSTREAM 500 USER, 2FXS, 2FXO",
+        marca: "GRANDSTREAM",
+        stock: "2 UNIDADES"
+    },
+
+    {
+        id: 57,
+        img: "https://via.placeholder.com/150C/O%20https://placeholder.com/",
+        codigo: "UCM6304A",
+        descripcion: "IP PBX GRANDSTREAM 4XO, 4XS,AUDIO",
+        marca: "GRANDSTREAM",
+        stock: "2 UNIDADES"
+    },
+
+    {
+        id: 58,
+        img: "https://via.placeholder.com/150C/O%20https://placeholder.com/",
+        codigo: "260-09",
+        descripcion: "Evolve 40 DUO UC. HEADSET DUO USB",
+        marca: "JABRA",
+        stock: "200 UNIDADES"
+    },
+
+    {
+        id: 59,
+        img: "https://via.placeholder.com/150C/O%20https://placeholder.com/",
+        codigo: "14208-16",
+        descripcion: "JABRA EXTENSION CORD ENGAGE50 USBC-A1.2M",
+        marca: "JABRA",
+        stock: "447 UNIDADES"
+    },
+
+    {
+        id: 60,
+        img: "https://via.placeholder.com/150C/O%20https://placeholder.com/",
+        codigo: "5099-610-189",
+        descripcion: "JABRA HEADSET ENGAGE 50 STEREO WT USB-C",
+        marca: "JABRA",
+        stock: "400 UNIDADES"
+    },
+
+    {
+        id: 61,
+        img: "https://via.placeholder.com/150C/O%20https://placeholder.com/",
+        codigo: "1519-0157",
+        descripcion: "Jabra BIZ 1500 Duo QD",
+        marca: "JABRA",
+        stock: "343 UNIDADES"
+    },
+
+    {
+        id: 62,
+        img: "https://via.placeholder.com/150C/O%20https://placeholder.com/",
+        codigo: "260-09",
+        descripcion: "Jabra Link260",
+        marca: "JABRA",
+        stock: "300 UNIDADES"
+    },
+
+    {
+        id: 63,
+        img: "https://via.placeholder.com/150C/O%20https://placeholder.com/",
+        codigo: "230-09",
+        descripcion: "Jabra Link 230",
+        marca: "JABRA",
+        stock: "500 UNIDADES"
+    },
+
+    {
+        id: 64,
+        img: "https://via.placeholder.com/150C/O%20https://placeholder.com/",
+        codigo: "1559-0159",
+        descripcion: "Jabra BIZ 1500 Duo USB",
+        marca: "JABRA",
+        stock: "33 UNIDADES"
+    },
+
+    {
+        id: 65,
+        img: "https://via.placeholder.com/150C/O%20https://placeholder.com/",
+        codigo: "7599-832-109",
+        descripcion: "Evolve 75 Stereo MS incl. Link 370",
+        marca: "JABRA",
+        stock: "10 UNIDADES"
+    },
+
+    {
+        id: 66,
+        img: "https://via.placeholder.com/150C/O%20https://placeholder.com/",
+        codigo: "4999-823-109",
+        descripcion: "Evolve 20 Duo MS. HEADSET DUO USB MS",
+        marca: "JABRA",
+        stock: "5 UNIDADES"
+    },
+
+    {
+        id: 67,
+        img: "https://via.placeholder.com/150C/O%20https://placeholder.com/",
+        codigo: "7710-309",
+        descripcion: "Jabra Speak 710 USB/BT for MS + LINK 370",
+        marca: "JABRA",
+        stock: "5 UNIDADES"
+    },
+
+    {
+        id: 68,
+        img: "https://via.placeholder.com/150C/O%20https://placeholder.com/",
+        codigo: "7710-409",
+        descripcion: "Jabra Speak 710 USB/BT for UC + Link 370",
+        marca: "JABRA",
+        stock: "5 UNIDADES"
+    },
+
+    {
+        id: 69,
+        img: "https://via.placeholder.com/150C/O%20https://placeholder.com/",
+        codigo: "7700-309",
+        descripcion: "Jabra Speak 750 MS Teams USB/BT & Link37",
+        marca: "JABRA",
+        stock: "4 UNIDADES"
+    },
+
+    {
+        id: 70,
+        img: "https://via.placeholder.com/150C/O%20https://placeholder.com/",
+        codigo: "8100-119",
+        descripcion: "Jabra Speak 750 MS Teams USB/BT & Link37",
+        marca: "JABRA",
+        stock: "4 UNIDADES"
+    },
+
+    {
+        id: 71,
+        img: "https://via.placeholder.com/150C/O%20https://placeholder.com/",
+        codigo: "14207-59",
+        descripcion: "Jabra PanaCast USB Hub USB-C",
+        marca: "JABRA",
+        stock: "1 UNIDAD"
+    },
+
+    {
+        id: 72,
+        img: "https://via.placeholder.com/150C/O%20https://placeholder.com/",
+        codigo: "8200-232-D",
+        descripcion: "JABRA PANACAST 50 VIDIOSYSTEM BLACK DEMO",
+        marca: "JABRA",
+        stock: "1 UNIDAD"
+    },
+
+    {
+        id: 73,
+        img: "https://via.placeholder.com/150C/O%20https://placeholder.com/",
+        codigo: "11DUSAT200",
+        descripcion: "LENOVO TINY M70Q I5 8GB 1TB HDD W10P 3Y",
+        marca: "LENOVO",
+        stock: "27 UNIDADES"
+    },
+
+    {
+        id: 74,
+        img: "https://via.placeholder.com/150C/O%20https://placeholder.com/",
+        codigo: "82KB00F5GJ",
+        descripcion: "LENOVO V15 I7 8GB 512SSD W10PRO 1YEAR",
+        marca: "LENOVO",
+        stock: "25 UNIDADES"
+    },
+
+    {
+        id: 75,
+        img: "https://via.placeholder.com/150C/O%20https://placeholder.com/",
+        codigo: "20VD004CGJ",
+        descripcion: "LENOVO THINKBOOK 14 I7 8GB 512 SSD W10P",
+        marca: "LENOVO",
+        stock: "20 UNIDADES"
+    },
+
+    {
+        id: 76,
+        img: "https://via.placeholder.com/150C/O%20https://placeholder.com/",
+        codigo: "82KB00F4GJ",
+        descripcion: "LENOVO V15 I5 8GB 256SSD W10PRO 1YEAR",
+        marca: "LENOVO",
+        stock: "20 UNIDADES"
+    },
+
+    {
+        id: 77,
+        img: "https://via.placeholder.com/150C/O%20https://placeholder.com/",
+        codigo: "62A8KAR1LA",
+        descripcion: "LENOVO THINKVISION C24-20 23.8 HDMI TINY",
+        marca: "LENOVO",
+        stock: "16 UNIDADES"
+    },
+
+    {
+        id: 78,
+        img: "https://via.placeholder.com/150C/O%20https://placeholder.com/",
+        codigo: "61CAKAR1US",
+        descripcion: "LENOVO THINKVISION S24E-10 23.8IN HDMI3Y",
+        marca: "LENOVO",
+        stock: "11 UNIDADES"
+    },
+
+    {
+        id: 79,
+        img: "https://via.placeholder.com/150C/O%20https://placeholder.com/",
+        codigo: "11DQS0SB00",
+        descripcion: "LENOVO TINY M80Q I5Q 8GB 1TB HDD W10P 3Y",
+        marca: "LENOVO",
+        stock: "9 UNIDADES"
+    },
+
+    {
+        id: 80,
+        img: "https://via.placeholder.com/150C/O%20https://placeholder.com/",
+        codigo: "81M8005PLM",
+        descripcion: "LENOVO 100E N4020 4GB 64GB 11.6IN W10P",
+        marca: "LENOVO",
+        stock: "6 UNIDADES"
+    },
+
+    {
+        id: 81,
+        img: "https://via.placeholder.com/150C/O%20https://placeholder.com/",
+        codigo: "20U6S17E00",
+        descripcion: "LENOVO THINKPAD L14 G1 AMD 8GB 512GB 14'",
+        marca: "LENOVO",
+        stock: "2 UNIDADES"
+    },
+
+    {
+        id: 82,
+        img: "https://via.placeholder.com/150C/O%20https://placeholder.com/",
+        codigo: "20VA0039GJ",
+        descripcion: "LENOVO THINKBOOK 14S I5 8GB 512 SSD W10P",
+        marca: "LENOVO",
+        stock: "1 UNIDAD"
+    },
+
+    {
+        id: 83,
+        img: "https://via.placeholder.com/150C/O%20https://placeholder.com/",
+        codigo: "20VA0039GJ",
+        descripcion: "LENOVO THINKBOOK 14S I5 8GB 512 SSD W10P",
+        marca: "LENOVO",
+        stock: "1 UNIDAD"
+    },
+
+    {
+        id: 84,
+        img: "https://via.placeholder.com/150C/O%20https://placeholder.com/",
+        codigo: "MW301R-ES",
+        descripcion: "ROUTER MERCUSYS WIFI N 300MBPS-ES",
+        marca: "MERCUSYS",
+        stock: "115 UNIDADES"
+    },
+
+    {
+        id: 85,
+        img: "https://via.placeholder.com/150C/O%20https://placeholder.com/",
+        codigo: "MW300RE",
+        descripcion: "MERCUSYS RANGE EXTENDER 300MBPS",
+        marca: "MERCUSYS",
+        stock: "42 UNIDADES"
+    },
+
+    {
+        id: 86,
+        img: "https://via.placeholder.com/150C/O%20https://placeholder.com/",
+        codigo: "MW305R-EU",
+        descripcion: "ROUTER MERCUSYS WIFI N 300MBPS-EU",
+        marca: "MERCUSYS",
+        stock: "20 UNIDADES"
+    },
+
+    {
+        id: 87,
+        img: "https://via.placeholder.com/150C/O%20https://placeholder.com/",
+        codigo: "RB/750R2",
+        descripcion: "ROUTER-AP MIKROTIK -ROUTER CASE PLASTICO",
+        marca: "MIKROTIK",
+        stock: "36 UNIDADES"
+    },
+
+    {
+        id: 88,
+        img: "https://via.placeholder.com/150C/O%20https://placeholder.com/",
+        codigo: "RB750GR3",
+        descripcion: "ROUTER-AP MIKROTIK-CASE PLAS.10/100/1000",
+        marca: "MIKROTIK",
+        stock: "36 UNIDADES"
+    },
+
+    {
+        id: 89,
+        img: "https://via.placeholder.com/150C/O%20https://placeholder.com/",
+        codigo: "RB941-2ND-TC",
+        descripcion: "ROUTER-AP MIKROTIK RB941-2ND VERTICAL",
+        marca: "MIKROTIK",
+        stock: "36 UNIDADES"
+    },
+
+    {
+        id: 90,
+        img: "https://via.placeholder.com/150C/O%20https://placeholder.com/",
+        codigo: "RB951G-2HND",
+        descripcion: "ROUTER-AP MIKROTIK RB951-2N GIGA WIFI",
+        marca: "MIKROTIK",
+        stock: "18 UNIDADES"
+    },
+
+    {
+        id: 91,
+        img: "https://via.placeholder.com/150C/O%20https://placeholder.com/",
+        codigo: "RB3011UIASRM",
+        descripcion: "ROUTER-AP MIKROTIK RB3011UIAS-RM",
+        marca: "MIKROTIK",
+        stock: "17 UNIDADES"
+    },
+
+    {
+        id: 92,
+        img: "https://via.placeholder.com/150C/O%20https://placeholder.com/",
+        codigo: "RB2011UIAS2H",
+        descripcion: "ROUTER-AP MIKROTIK RB2011UIAS-2HND-IN",
+        marca: "MIKROTIK",
+        stock: "1 UNIDAD"
+    },
+
+    {
+        id: 93,
+        img: "https://via.placeholder.com/150C/O%20https://placeholder.com/",
+        codigo: "1A1G35430G-B",
+        descripcion: "VGA AMD POWERCOLOR RADEON RX 6600 XT FIG",
+        marca: "POWERCOLOR",
+        stock: "9 UNIDADES"
+    },
+
+    {
+        id: 94,
+        img: "https://via.placeholder.com/150C/O%20https://placeholder.com/",
+        codigo: "1A1G35550G-B",
+        descripcion: "VGA AMD POWERCOLOR RADEON RX 6600 FIGHTE",
+        marca: "POWERCOLOR",
+        stock: "5 UNIDADES"
+    },
+
+    {
+        id: 95,
+        img: "https://via.placeholder.com/150C/O%20https://placeholder.com/",
+        codigo: "LH85QMREBGCX",
+        descripcion: "DISPLAY SAMSUNG QMR85 500NIT 24/7 3840X2",
+        marca: "SAMSUNG-DISPLAY",
+        stock: "1 UNIDAD"
+    },
+
+    {
+        id: 96,
+        img: "https://via.placeholder.com/150C/O%20https://placeholder.com/",
+        codigo: "LC24RG50FQLX",
+        descripcion: "CURVED MONITOR SAMSUNG 24' SUPER SLIM",
+        marca: "SAMSUNG-MONITORS",
+        stock: "2 UNIDADES"
+    },
+
+    {
+        id: 97,
+        img: "https://via.placeholder.com/150C/O%20https://placeholder.com/",
+        codigo: "LC27T550FDLX",
+        descripcion: "CURVED MONITOR SAMSUNG 27' T550 75HZ",
+        marca: "SAMSUNG-MONITORS",
+        stock: "1 UNIDAD"
+    },
+
+    {
+        id: 98,
+        img: "https://via.placeholder.com/150C/O%20https://placeholder.com/",
+        codigo: "ARCHERC50ESB",
+        descripcion: "WIRELESS ROUTER TPL AC1200 DUAL BAND USB",
+        marca: "TP-LINK",
+        stock: "140 UNIDADES"
+    },
+
+    {
+        id: 99,
+        img: "https://via.placeholder.com/150C/O%20https://placeholder.com/",
+        codigo: "ARCHER C50",
+        descripcion: "TP LINK WIRELESS ROUTER AC1200 DB 3EXT A",
+        marca: "TP-LINK",
+        stock: "44 UNIDADES"
+    },
+
+    {
+        id: 100,
+        img: "https://via.placeholder.com/150C/O%20https://placeholder.com/",
+        codigo: "TL-WR841N",
+        descripcion: "ROUTER WIFI TP-LINK 300M ANT FIJA",
+        marca: "TP-LINK",
+        stock: "23 UNIDADES"
+    },
+
+    {
+        id: 101,
+        img: "https://via.placeholder.com/150C/O%20https://placeholder.com/",
+        codigo: "ARCHERAX10",
+        descripcion: "WIFI-6  ROUTER TP-LINK DUALBAND AC2600",
+        marca: "TP-LINK",
+        stock: "19 UNIDADES"
+    },
+
+    {
+        id: 102,
+        img: "https://via.placeholder.com/150C/O%20https://placeholder.com/",
+        codigo: "RE-300",
+        descripcion: "RANGE EXTENDER TP-LINK AC 1200",
+        marca: "TP-LINK",
+        stock: "18 UNIDADES"
+    },
+
+    {
+        id: 103,
+        img: "https://via.placeholder.com/150C/O%20https://placeholder.com/",
+        codigo: "TL-WA850RE",
+        descripcion: "AP TP-LINK 300 M 802.11B/G/N REPEATER",
+        marca: "TP-LINK",
+        stock: "17 UNIDADES"
+    },
+
+    {
+        id: 104,
+        img: "https://via.placeholder.com/150C/O%20https://placeholder.com/",
+        codigo: "LBE-5AC-GEN2",
+        descripcion: "AP UBIQUITI LITEBEAM 5GHZ 23DBI GEN 2",
+        marca: "UBIQUITI",
+        stock: "432 UNIDADES"
+    },
+
+    {
+        id: 105,
+        img: "https://via.placeholder.com/150C/O%20https://placeholder.com/",
+        codigo: "LBE-M5-23",
+        descripcion: "AP UBIQUITI 5GHZ LITEBEAM,23DBI,AIRMAX",
+        marca: "UBIQUITI",
+        stock: "181 UNIDADES"
+    },
+
+    {
+        id: 106,
+        img: "https://via.placeholder.com/150C/O%20https://placeholder.com/",
+        codigo: "R5AC-LITE",
+        descripcion: "AP UBIQUITI ROCKET 5GHZ AC-LITE",
+        marca: "UBIQUITI",
+        stock: "102 UNIDADES"
+    },
+
+    {
+        id: 107,
+        img: "https://via.placeholder.com/150C/O%20https://placeholder.com/",
+        codigo: "RD-5G30-LW",
+        descripcion: "ANTENA UBIQUITI 5GHZ RD 30DBI LITEWEIGHT",
+        marca: "UBIQUITI",
+        stock: "64 UNIDADES"
+    },
+
+    {
+        id: 108,
+        img: "https://via.placeholder.com/150C/O%20https://placeholder.com/",
+        codigo: "UAP-AC-LR",
+        descripcion: "AP UBIQUITI WIFI AC LONG RANGE 300/867",
+        marca: "UBIQUITI",
+        stock: "53 UNIDADES"
+    },
+
+    {
+        id: 109,
+        img: "https://via.placeholder.com/150C/O%20https://placeholder.com/",
+        codigo: "UAP-AC-LITE",
+        descripcion: "AP UBIQUITI WIFI AC-LITE 300/867 MBPS",
+        marca: "UBIQUITI",
+        stock: "50 UNIDADES"
+    },
+
+    {
+        id: 110,
+        img: "https://via.placeholder.com/150C/O%20https://placeholder.com/",
+        codigo: "UAP-AC-PRO",
+        descripcion: "AP UBIQUITI WIFI AC IN/OUT 450/1300 MB",
+        marca: "UBIQUITI",
+        stock: "46 UNIDADES"
+    },
+
+    {
+        id: 111,
+        img: "https://via.placeholder.com/150C/O%20https://placeholder.com/",
+        codigo: "USWPRO48POE",
+        descripcion: "SWITCH UBIQUITI UNIFI USW-PRO-48-POE",
+        marca: "UBIQUITI",
+        stock: "43 UNIDADES"
+    },
+
+    {
+        id: 112,
+        img: "https://via.placeholder.com/150C/O%20https://placeholder.com/",
+        codigo: "RP-5AC-GEN2",
+        descripcion: "AP UBIQUITI ROCKET 5GHZ AC PRISM GEN2",
+        marca: "UBIQUITI",
+        stock: "30 UNIDADES"
+    },
+
+    {
+        id: 113,
+        img: "https://via.placeholder.com/150C/O%20https://placeholder.com/",
+        codigo: "LAP-GPS",
+        descripcion: "AP UBIQUITI 5GHZ AC 17DBI 90DEG GPS",
+        marca: "UBIQUITI",
+        stock: "20 UNIDADES"
+    },
+
+    {
+        id: 114,
+        img: "https://via.placeholder.com/150C/O%20https://placeholder.com/",
+        codigo: "PBE-M5-400",
+        descripcion: "AP UBIQUITI POWERBEAM 5.8GHZ 400M",
+        marca: "UBIQUITI",
+        stock: "20 UNIDADES"
+    },
+
+    {
+        id: 115,
+        img: "https://via.placeholder.com/150C/O%20https://placeholder.com/",
+        codigo: "POE-24-12W",
+        descripcion: "POE INJECTOR UBIQUITI 24V-0.5A",
+        marca: "UBIQUITI",
+        stock: "20 UNIDADES"
+    },
+
+    {
+        id: 116,
+        img: "https://via.placeholder.com/150C/O%20https://placeholder.com/",
+        codigo: "ROCKETM5",
+        descripcion: "AP UBIQUITI ROCKET 5GHZ AIRMAX",
+        marca: "UBIQUITI",
+        stock: "16 UNIDADES"
+    },
+
+    {
+        id: 117,
+        img: "https://via.placeholder.com/150C/O%20https://placeholder.com/",
+        codigo: "U6-LITE",
+        descripcion: "AP UBIQUITI WIFI 6  U6-LITE",
+        marca: "UBIQUITI",
+        stock: "16 UNIDADES"
+    },
+
+    {
+        id: 118,
+        img: "https://via.placeholder.com/150C/O%20https://placeholder.com/",
+        codigo: "PBE-5AC-GEN2",
+        descripcion: "AP UBIQUITI 5GHZ PBE AC 25DBI GEN2",
+        marca: "UBIQUITI",
+        stock: "10 UNIDADES"
+    },
+
+    {
+        id: 119,
+        img: "https://via.placeholder.com/150C/O%20https://placeholder.com/",
+        codigo: "UAP-AC-M-PRO",
+        descripcion: "AP UBIQUITI WIFI OUT M PRO 450/1300 MB",
+        marca: "UBIQUITI",
+        stock: "10 UNIDADES"
+    },
+
+    {
+        id: 120,
+        img: "https://via.placeholder.com/150C/O%20https://placeholder.com/",
+        codigo: "UAP-NANOHD",
+        descripcion: "AP UBIQUITI WIFI WAVE2 POE NOT INCLUDED",
+        marca: "UBIQUITI",
+        stock: "10 UNIDADES"
+    },
+
+    {
+        id: 121,
+        img: "https://via.placeholder.com/150C/O%20https://placeholder.com/",
+        codigo: "USWPRO24POE",
+        descripcion: "SWITCH UBIQUITI UNIFI USW-PRO-24-POE",
+        marca: "UBIQUITI",
+        stock: "10 UNIDADES"
+    },
+
+    {
+        id: 122,
+        img: "https://via.placeholder.com/150C/O%20https://placeholder.com/",
+        codigo: "POE-48-24W",
+        descripcion: "POE INJECTOR UBIQUITI 48 VDC 24W",
+        marca: "UBIQUITI",
+        stock: "7 UNIDADES"
+    },
+
+    {
+        id: 123,
+        img: "https://via.placeholder.com/150C/O%20https://placeholder.com/",
+        codigo: "AF-5G30-S45",
+        descripcion: "ANTENA UBIQUITI AIRFIBER 5GHZ 30 DBI S45",
+        marca: "UBIQUITI",
+        stock: "4 UNIDADES"
+    },
+
+    {
+        id: 124,
+        img: "https://via.placeholder.com/150C/O%20https://placeholder.com/",
+        codigo: "USW-16-POE",
+        descripcion: "SWITCH UBIQUITI UNIFI 16P",
+        marca: "UBIQUITI",
+        stock: "4 UNIDADES"
+    },
+
+    {
+        id: 125,
+        img: "https://via.placeholder.com/150C/O%20https://placeholder.com/",
+        codigo: "SIP-T31P",
+        descripcion: "IP PHONE YEALINK 2SIP 2LINE 10/100 POE",
+        marca: "YEALINK",
+        stock: "20 UNIDADES"
+    },
+
+    {
+        id: 126,
+        img: "https://via.placeholder.com/150C/O%20https://placeholder.com/",
+        codigo: "SIP-T30P",
+        descripcion: "IP PHONE YEALINK 1SIP 1LINE 10/100 POE",
+        marca: "YEALINK",
+        stock: "10 UNIDADES"
+    },
+
+    {
+        id: 127,
+        img: "https://via.placeholder.com/150C/O%20https://placeholder.com/",
+        codigo: "SIP-T43U",
+        descripcion: "IP PHONE YEALINK 12 SIP 6 LINE POE SFB",
+        marca: "YEALINK",
+        stock: "5 UNIDADES"
+    },
+
+    {
+        id: 128,
+        img: "https://via.placeholder.com/150C/O%20https://placeholder.com/",
+        codigo: "EXP43",
+        descripcion: "EXPANSION MODULE YEALINK EXP43 COLOR",
+        marca: "YEALINK",
+        stock: "2 UNIDADES"
+    }
 ]
