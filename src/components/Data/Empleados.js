@@ -109,11 +109,11 @@ export const Empleados = [
     },
     {
         id: 10,
-        nombre: "Estuardo Flores",
+        nombre: "Edward Mendoza",
         movil: "+502 5629 0517",
-        correo: "Estuardo_flores@solutionbox.com.gt",
-        cargo: "Insales",
-        img: "https://raw.githubusercontent.com/RamiroSB/imagenes/main/Staff%20resized/Estuardo-Flores.png",
+        correo: "Edward_mendoza@solutionbox.com.gt",
+        cargo: "Vendedor Departamental",
+        img: "https://raw.githubusercontent.com/RamiroSB/imagenes/main/Staff%20resized/Edward.png",
         category: "vendedores"
     }
 

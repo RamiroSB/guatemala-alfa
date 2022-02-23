@@ -9,6 +9,7 @@ import { NuestraEmpresa } from './components/pages/NuestraEmpresa';
 import { TrabajaConNosotros } from './components/pages/TrabajaConNosotros';
 import { Contacto } from './components/pages/Contacto';
 import { StockLista } from './components/StockLista/StockLista'
+import { FooterTest } from './components/Footer/FooterTest';
 
 
 function App() {
@@ -31,7 +32,8 @@ function App() {
               <Route path="/marcas/:catId" element= { <StockLista/> }/>
             </Routes>
 
-        <Footer/>
+   {/*      <Footer/> */}
+        <FooterTest/>
 
     </BrowserRouter> 
   );
