@@ -18,7 +18,6 @@ export const FooterTest = () => {
             <div className="row">
                 <div class=" col-sm-4 col-md col-sm-4  col-12 col">
                     <h5 className="headin5_amrc col_white_amrc pt2">ENCUÉNTRANOS</h5>
-                    {/* <p class="mb10">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p> */}
                     <p><i className="fa fa-location-arrow"></i> Blvd. Los Proceres 24-69 Zona 10 <br/>Zona Pradera, Torre 4 - Nivel 5, Oficina 510 </p>
                     <p><i className="fa fa-phone"></i>  6091-1200  </p>
                     <p><i className="fa fa fa-envelope"></i> info@solutionbox.com.gt</p>
@@ -74,11 +73,11 @@ export const FooterTest = () => {
             <p className="text-center">© 2022 Solution Box S.R.L. | Blvd. Los Proceres 24-69 Zona 10, Guatemala </p>
 
             <ul className="social_footer_ul">
-            <li><a href="https://www.facebook.com/solutionbox.guatemala" target='_blank' rel="noreferrer" className='iconoFacebook'><i className="fab fa-facebook-f"></i></a></li>
-            <li><a href="https://twitter.com/solutionboxusa" target='_blank' rel="noreferrer" className='iconoTwitter'><i class="fab fa-twitter"></i></a></li>
-            <li><a href="https://www.youtube.com/channel/UCxWedPaJvnyZXCC7f65cdzg" target='_blank' rel="noreferrer" className='iconoYoutube'><i className="fab fa-youtube"></i></a></li>
-            <li><a href="https://www.instagram.com/solutionbox.guatemala" target='_blank' rel="noreferrer" className='iconoInstagram'><i className="fab fa-instagram"></i></a></li>
-            <li><a href="https://www.linkedin.com/company/solution-box-llc" target='_blank' rel="noreferrer" className='iconoLinkedin'><i className="fab fa-linkedin"></i></a></li>
+            <li><a href="https://www.facebook.com/solutionbox.guatemala" target='_blank' rel="noreferrer" className='iconoFacebook'><i className="fab fa-facebook-f gran"></i></a></li>
+            <li><a href="https://twitter.com/solutionboxusa" target='_blank' rel="noreferrer" className='iconoTwitter'><i class="fab fa-twitter gran"></i></a></li>
+            <li><a href="https://www.youtube.com/channel/UCxWedPaJvnyZXCC7f65cdzg" target='_blank' rel="noreferrer" className='iconoYoutube'><i className="fab fa-youtube gran"></i></a></li>
+            <li><a href="https://www.instagram.com/solutionbox.guatemala" target='_blank' rel="noreferrer" className='iconoInstagram'><i className="fab fa-instagram gran"></i></a></li>
+            <li><a href="https://www.linkedin.com/company/solution-box-llc" target='_blank' rel="noreferrer" className='iconoLinkedin'><i className="fab fa-linkedin gran"></i></a></li>
             </ul>
 
         </div>
