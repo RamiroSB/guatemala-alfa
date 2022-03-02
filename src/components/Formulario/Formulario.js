@@ -17,6 +17,8 @@ export const Formulario = () => {
         })
     }
 
+    /* para prevenir que el formulario se envie y rompa la web ya que no tiene back */
+    
     const previeneEnvio = event => {
         event.preventDefault()
     }

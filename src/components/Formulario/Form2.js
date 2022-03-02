@@ -3,6 +3,7 @@ import "./Form2style.css"
 
 export const Form2 = () => {
 
+    /* para prevenir que el formulario se envie y rompa la web ya que no tiene back */
     const previeneElEnvio = event => {
         event.preventDefault()
     }
