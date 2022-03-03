@@ -1,0 +1,9 @@
+.contenEmpresa{
+    width: 60%;
+    margin: 1rem auto;
+    padding: 2rem;
+    transition: all 0.3s;
+}
+.contenEmpresa p{
+    line-height: 1.5;
+}

@@ -15,14 +15,14 @@ export default class Barra1 extends Component {
                 className="me-auto my-2 my-lg-0"
                 style={{ height: '100%' }}
               >
-                
-                <NavDropdown title="CATEGORIAS" id="navbarScrollingDropdown" bg="primary">
+                {/* <NavDropdown.Divider /> */}
+
+                {/* <NavDropdown title="CATEGORIAS" id="navbarScrollingDropdown" bg="primary">
                   <NavDropdown.Item href="#action3">MONITORES </NavDropdown.Item>
                   <NavDropdown.Item href="#action4">TECLADOS</NavDropdown.Item>
-                  {/* <NavDropdown.Divider /> */}
                   <NavDropdown.Item href="#action5">NOTEBOOKS</NavDropdown.Item>
                   <NavDropdown.Item href="#action5">GAMING</NavDropdown.Item>
-                </NavDropdown>
+                </NavDropdown> */}
 
                 <NavDropdown title="MARCAS" id="navbarScrollingDropdown">
                   <NavDropdown.Item><Link to="/marcas/ADATA" className='dropdown-item mod'>ADATA</Link></NavDropdown.Item>
