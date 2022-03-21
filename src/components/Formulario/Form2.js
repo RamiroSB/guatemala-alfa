@@ -2,12 +2,13 @@ import React from 'react'
 import "./Form2style.css"
 
 export const Form2 = () => {
-
+    
+/* para prevenir que el formulario se envie y rompa la web ya que no tiene back */
     const previeneElEnvio = event => {
         event.preventDefault()
     }
 
-  return (
+return (
     <div className="content">
 
         <h1 className='logo'>Contacta<span>nos</span></h1>
@@ -33,7 +34,7 @@ export const Form2 = () => {
                         <input type="text" name="affair"/>
                     </p>
                     <p className="block">
-                       <label>Mensaje</label> 
+                        <label>Mensaje</label> 
                         <textarea name="message" rows="1"></textarea>
                     </p>
                     <p className="block">
@@ -57,5 +58,5 @@ export const Form2 = () => {
 
     </div>
 
-  )
+)
 }

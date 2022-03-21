@@ -1,6 +1,5 @@
 import { Imagenes } from './components/Body/Imagenes';
 import { EmpleadosLista } from './components/EmpleadosLista/EmpleadosLista';
-import { Footer } from './components/Footer/Footer';
 import Barra1 from './components/Navbar/Navbar';
 import { Slider } from './components/Slider/Slider';
 import { BrowserRouter, Routes, Route, Navigate} from 'react-router-dom'
@@ -10,6 +9,8 @@ import { TrabajaConNosotros } from './components/pages/TrabajaConNosotros';
 import { Contacto } from './components/pages/Contacto';
 import { StockLista } from './components/StockLista/StockLista'
 import { FooterTest } from './components/Footer/FooterTest';
+import { Capacitaciones } from './components/pages/Capacitaciones';
+import { Rma } from './components/pages/Rma';
 
 
 function App() {
@@ -28,11 +29,12 @@ function App() {
               <Route path='/nuestraempresa' element= {<NuestraEmpresa/>}/>
               <Route path='trabajaconnosotros' element= { <TrabajaConNosotros/> } />
               <Route path='contacto' element= { <Contacto/> } />
+              <Route path='capacitaciones' element= { <Capacitaciones/> } />
+              <Route path='rma' element= { <Rma/> } />
               <Route path='*' element= { <Navigate to ="/" /> } />
               <Route path="/marcas/:catId" element= { <StockLista/> }/>
             </Routes>
 
-   {/*      <Footer/> */}
         <FooterTest/>
 
     </BrowserRouter> 

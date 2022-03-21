@@ -1,6 +1,6 @@
 import React from 'react'
 import { Container, Row, Button } from 'react-bootstrap'
-import { Link } from 'react-router-dom'
+/* import { Link } from 'react-router-dom' */
 import './StockMapeoStyle.css'
 
 export const StockMapeo = ({stock}) => {
@@ -12,20 +12,32 @@ export const StockMapeo = ({stock}) => {
 
           {/* Mapeo del array de objetos, iterando y mostrando cada propiedad */}
 
-        {stock.map( (item)=> (
-                    <div key={item.id} className='card' id='cuerpo' style={{width: "20rem", margin: "10px", textAlign: "center"}}>
-                        <img src={item.img} className='itemImg' alt="Foto item en stock"/>
-                            <div className='card-body'>
-                                <h4 className='itemCodigo'><span style= {{color: "#515151"}}>SKU:</span> {item.codigo}</h4>
-                                <hr/>
-                                <p className='itemDescripcion'><span style= {{color: "#515151"}}>Descripcion:</span> {item.descripcion}</p>
-                                <p className='itemMarca'><span style= {{color: "#515151"}}>Marca:</span> {item.marca}</p>
-                                <p className='itemStock'><span style= {{color: "#515151"}}>Stock Disponible</span> {item.stock}</p>
-                                <Button variant="outline-dark" className='botonPrecio'><Link to="/contacto" className='linkPrecio'>PRECIO</Link></Button>
-                         </div>
-                    </div>
-                ))
-            }
+        {stock.map( (index)=> (
+              <div className='card flexContainer mx-auto' style={{width: "22rem", margin: "10px"}} key={index.Alias} >
+              <div className='card-body editC'>
+                  <img src='https://via.placeholder.com/550/b8b6b6/000000/?text=IMAGEN-TRADER-SBOX' alt='ImagenProducto' className='imgProd'/>
+                  <hr/>
+                      <p style={{textAlign: "center"}} >{index.descripcion}</p>
+                    
+                      <p>{index.marca} - <span className='spanStock'>Stock: {index.stock}</span> </p>
+                    
+                      <p className='Descripcion'>Codigo#{index.codigo}</p>
+                          
+                      {/* COMENTAR PARA VISTA SIN LOGUEO */}
+                      <p style={{color: 'black    '}}>U$S 100,00 <span className='spanIva'>+ IVA (10.5%) IMP. INT (NO)</span></p>
+                      <p className='Descripcion'> Valor IVA USD 50</p>
+                      
+                      <Button className='botonInfo'>VER PRODUCTO</Button>
+              
+                      {/* COMENTAR PARA VISTA */}
+                      {/* <Button className='botonLogin'>LOGIN</Button> */}
+
+                      {/* COMENTAR PARA VER VISTA LOGUEADO */}
+                      <Button className='botonCompra'>COMPRAR</Button>
+              </div>
+          </div>
+            ))
+          }
         </Row>
     </Container>
   )

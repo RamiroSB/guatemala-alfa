@@ -16,13 +16,13 @@ export default class Barra1 extends Component {
                 style={{ height: '100%' }}
               >
                 
-                <NavDropdown title="CATEGORIAS" id="navbarScrollingDropdown" bg="primary">
+                {/* <NavDropdown title="CATEGORIAS" id="navbarScrollingDropdown" bg="primary">
                   <NavDropdown.Item href="#action3">MONITORES </NavDropdown.Item>
                   <NavDropdown.Item href="#action4">TECLADOS</NavDropdown.Item>
-                  {/* <NavDropdown.Divider /> */}
+                  
                   <NavDropdown.Item href="#action5">NOTEBOOKS</NavDropdown.Item>
                   <NavDropdown.Item href="#action5">GAMING</NavDropdown.Item>
-                </NavDropdown>
+                </NavDropdown> */}
 
                 <NavDropdown title="MARCAS" id="navbarScrollingDropdown">
                   <NavDropdown.Item><Link to="/marcas/ADATA" className='dropdown-item mod'>ADATA</Link></NavDropdown.Item>
@@ -46,30 +46,32 @@ export default class Barra1 extends Component {
                   <NavDropdown.Item><Link to="/marcas/YEALINK" className='dropdown-item mod'>YEALINK</Link></NavDropdown.Item>
                 </NavDropdown>
 
-                <NavDropdown title="EMPRESA" id="navbarScrollingDropdown">
+                <NavDropdown title="NOSOTROS" id="navbarScrollingDropdown">
                   <NavDropdown.Item> <Link to="nuestraempresa" className='dropdown-item mod'>LA EMPRESA</Link></NavDropdown.Item>
                   <NavDropdown.Item> <Link to="contacto" className='dropdown-item mod'>CONTACTO</Link></NavDropdown.Item>
                   <NavDropdown.Item> <Link to="trabajaconnosotros" className='dropdown-item mod'>TRABAJA CON NOSOTROS</Link></NavDropdown.Item>
                   <NavDropdown.Item href="https://www.solutionbox.com.ar/downloads/usuario/Cumplimiento_3.pdf" target="_blank">POLITICA ANTICORRUPCION</NavDropdown.Item>
 
-                  <NavDropdown title="STAFF" id="navbarScrollingDropdown" className='staffEdit' >
+                  <NavDropdown.Item> <Link to="/empleados" className='dropdown-item mod'>STAFF</Link></NavDropdown.Item>
+
+                  {/* <NavDropdown title="STAFF" id="navbarScrollingDropdown" className='staffEdit' >
                     <NavDropdown.Item> <Link to="/empleados/gerencia" className='dropdown-item mod'>GERENCIA</Link></NavDropdown.Item>
                     <NavDropdown.Item> <Link to="/empleados/productmanager" className='dropdown-item mod'>PRODUCT MANAGER</Link></NavDropdown.Item>
                     <NavDropdown.Item> <Link to="/empleados/vendedores" className='dropdown-item mod'>VENDEDORES</Link></NavDropdown.Item>
-                  </NavDropdown>  
+                  </NavDropdown>  */} 
 
                 </NavDropdown>
 
                 <NavDropdown title="EVENTOS" id="navbarScrollingDropdown">
-                  <NavDropdown.Item href="https://www.youtube.com/channel/UCxWedPaJvnyZXCC7f65cdzg" target="_blank">CAPACITACIONES</NavDropdown.Item>
-                  <NavDropdown.Item href="https://www.youtube.com/channel/UCxWedPaJvnyZXCC7f65cdzg" target="_blank">YOUTUBE</NavDropdown.Item>
-                  <NavDropdown.Item href="https://www.youtube.com/channel/UCxWedPaJvnyZXCC7f65cdzg" target="_blank">WEBINAR</NavDropdown.Item>
+                  <NavDropdown.Item><Link to="/capacitaciones" className='dropdown-item mod'>CAPACITACIONES</Link></NavDropdown.Item>
+                  <NavDropdown.Item href="https://www.youtube.com/channel/UCxWedPaJvnyZXCC7f65cdzg" target="_blank">ON DEMAND</NavDropdown.Item>
                 </NavDropdown>
 
                 <NavDropdown title="LINKS UTILES" id="navbarScrollingDropdown">
                   <NavDropdown.Item> <Link to="newsletter" className='dropdown-item mod'>SUCRIBITE A NUESTRO NEWSLETTER</Link></NavDropdown.Item>
                   <NavDropdown.Item href="https://www.solutionbox.com.ar/info-impositiva">LEGAJO IMPOSITIVO</NavDropdown.Item>
-                  <NavDropdown.Item href="https://www.solutionbox.com.ar/rma">CONDICIONES RMA</NavDropdown.Item>
+                  <NavDropdown.Item><Link to="/rma" className='dropdown-item mod'>RMA</Link></NavDropdown.Item>
+                  <NavDropdown.Item href="http://www.solutionboxusa.com/downloads/catalogo-SB-Group.pdf" target="_blank">CATALOGO DIGITAL</NavDropdown.Item>
                 </NavDropdown>
 
                 

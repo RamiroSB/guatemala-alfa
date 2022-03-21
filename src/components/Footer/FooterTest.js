@@ -9,12 +9,12 @@ export const FooterTest = () => {
         <div class="container bottom_border">
         <h1 style={{ color: "white",
 				textAlign: "center"}}>
-		Solution Box S.R.L
+		Solution Box Guatemala S.A
 	</h1>
-	<h5 style={{ color: "white",
+{/* 	<h5 style={{ color: "white",
 				textAlign: "center",}}>
 		GUATEMALA
-	</h5>
+	</h5> */}
             <div className="row">
                 <div class=" col-sm-4 col-md col-sm-4  col-12 col">
                     <h5 className="headin5_amrc col_white_amrc pt2">ENCUÉNTRANOS</h5>
@@ -60,9 +60,8 @@ export const FooterTest = () => {
 
                 <ul className="footer_ul_amrc">
                 <li><a href="http://www.solutionboxusa.com/downloads/catalogo-SB-Group.pdf">Catalogo Digital</a></li>
-                <li><a href="https://www.youtube.com/channel/UCxWedPaJvnyZXCC7f65cdzg">Cursos</a></li>
-                <li><a href="https://www.youtube.com/channel/UCxWedPaJvnyZXCC7f65cdzg">Seminarios</a></li>
-                <li><a href="https://www.youtube.com/channel/UCxWedPaJvnyZXCC7f65cdzg">Alta Usuarios</a></li>
+                <li><Link to="capacitaciones" target="_blank">Capacitaciones</Link></li>
+                <li><Link to="contacto" target="_blank">Alta Usuarios</Link></li>
                 </ul>
 
                 </div>
@@ -71,14 +70,14 @@ export const FooterTest = () => {
 
 
             <div className="container">
-            <p className="text-center">© 2022 Solution Box S.R.L. | Blvd. Los Proceres 24-69 Zona 10, Guatemala </p>
+            <p className="text-center">© 2022 Solution Box S.A | Blvd. Los Proceres 24-69 Zona 10, Guatemala </p>
 
             <ul className="social_footer_ul">
-            <li><a href="https://www.facebook.com/solutionbox.guatemala" target='_blank' rel="noreferrer" className='iconoFacebook'><i className="fab fa-facebook-f"></i></a></li>
-            <li><a href="https://twitter.com/solutionboxusa" target='_blank' rel="noreferrer" className='iconoTwitter'><i class="fab fa-twitter"></i></a></li>
-            <li><a href="https://www.youtube.com/channel/UCxWedPaJvnyZXCC7f65cdzg" target='_blank' rel="noreferrer" className='iconoYoutube'><i className="fab fa-youtube"></i></a></li>
-            <li><a href="https://www.instagram.com/solutionbox.guatemala" target='_blank' rel="noreferrer" className='iconoInstagram'><i className="fab fa-instagram"></i></a></li>
-            <li><a href="https://www.linkedin.com/company/solution-box-llc" target='_blank' rel="noreferrer" className='iconoLinkedin'><i className="fab fa-linkedin"></i></a></li>
+            <li><a href="https://www.facebook.com/solutionbox.guatemala" target='_blank' rel="noreferrer" className='iconoFacebook'><i className="fab fa-facebook-f gran"></i></a></li>
+            <li><a href="https://twitter.com/solutionboxusa" target='_blank' rel="noreferrer" className='iconoTwitter'><i class="fab fa-twitter gran"></i></a></li>
+            <li><a href="https://www.youtube.com/channel/UCxWedPaJvnyZXCC7f65cdzg" target='_blank' rel="noreferrer" className='iconoYoutube'><i className="fab fa-youtube gran"></i></a></li>
+            <li><a href="https://www.instagram.com/solutionbox.guatemala" target='_blank' rel="noreferrer" className='iconoInstagram'><i className="fab fa-instagram gran"></i></a></li>
+            <li><a href="https://www.linkedin.com/company/solution-box-llc" target='_blank' rel="noreferrer" className='iconoLinkedin'><i className="fab fa-linkedin gran"></i></a></li>
             </ul>
 
         </div>
