@@ -31,6 +31,9 @@ export const EmpleadosLista = () => {
         })
     }, [catId])
   
+    /* Termina funcion que valida staff */
+
+    /* retorna un ternario, en caso de que no este el mapeo muestra el componente loader */
     return (
              <>
                 {loading 

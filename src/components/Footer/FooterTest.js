@@ -18,7 +18,6 @@ export const FooterTest = () => {
             <div className="row">
                 <div class=" col-sm-4 col-md col-sm-4  col-12 col">
                     <h5 className="headin5_amrc col_white_amrc pt2">ENCUÉNTRANOS</h5>
-                    {/* <p class="mb10">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p> */}
                     <p><i className="fa fa-location-arrow"></i> Blvd. Los Proceres 24-69 Zona 10 <br/>Zona Pradera, Torre 4 - Nivel 5, Oficina 510 </p>
                     <p><i className="fa fa-phone"></i>  6091-1200  </p>
                     <p><i className="fa fa fa-envelope"></i> info@solutionbox.com.gt</p>
