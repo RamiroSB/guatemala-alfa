@@ -59,8 +59,8 @@ export const FooterTest = () => {
 
                 <ul className="footer_ul_amrc">
                 <li><a href="http://www.solutionboxusa.com/downloads/catalogo-SB-Group.pdf">Catalogo Digital</a></li>
-                <li><Link to="capacitaciones" target="_blank">Capacitaciones</Link></li>
-                <li><Link to="contacto" target="_blank">Alta Usuarios</Link></li>
+                <li><Link to="capacitaciones">Capacitaciones</Link></li>
+                <li><Link to="contacto">Alta Usuarios</Link></li>
                 </ul>
 
                 </div>

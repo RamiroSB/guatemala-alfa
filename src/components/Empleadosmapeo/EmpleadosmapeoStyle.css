@@ -43,7 +43,7 @@ h2 {
     border-radius: 50%;
 }
 
-/* .personaCorreo {
-    font-weight: 300;
-    font-size: 15px;
-} */
+.personaCorreo {
+    font-weight: 500;
+    font-size: 0.7em;
+}

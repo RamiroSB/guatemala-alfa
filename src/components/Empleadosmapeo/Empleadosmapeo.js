@@ -12,7 +12,7 @@ export const Empleadosmapeo = ({empleados}) => {
           {/* Mapeo del array de objetos, iterando y mostrando cada propiedad */}
 
         {empleados.map( (persona)=> (
-                    <div key={persona.id} className='card' id='cuerpo' style={{width: "15rem", margin: "10px", textAlign: "center"}}>
+                    <div key={persona.id} className='card' id='cuerpo' style={{width: "16rem", margin: "10px", textAlign: "center"}}>
                         <img src={persona.img} className='imagenPersona' alt="Foto empleado/a"/>
                             <div className='card-body'>
                                 <h4 className='personaNombre'>{persona.nombre}</h4>
@@ -21,7 +21,7 @@ export const Empleadosmapeo = ({empleados}) => {
                                 <p className='personaCorreo'>{persona.correo}</p>
                                 <p>{persona.email}</p>
                                 <p>{persona.movil}</p>
-                         </div>
+                            </div>
                     </div>
                 ))
             }

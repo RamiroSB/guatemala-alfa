@@ -1,5 +1,5 @@
 export const Empleados = [
-    {
+    /* {
         id: 12,
         nombre: "Federico Freitag",
         movil: "(011) 6091-1243",
@@ -33,6 +33,24 @@ export const Empleados = [
         correo: "pablo_roust@solutionbox.com.ar",
         cargo: "Director Operativo",
         img: "https://raw.githubusercontent.com/RamiroSB/imagenes/main/PabloR.png",
+        category: "gerencia"
+    }, */
+    {
+        id: 13,
+        nombre: "Claudio Muñoz",
+        movil: "+502 4768-5977",
+        correo: "claudio_munoz@solutionboxusa.com",
+        cargo: "Gerente Regional",
+        img: "https://raw.githubusercontent.com/RamiroSB/imagenes/main/Staff%20resized/ClaudioMunos.jpeg",
+        category: "gerencia"
+    },
+    {
+        id: 14,
+        nombre: "Pablo Guatelli",
+        movil: "+502 4768-5977",
+        correo: "pablo_guatelli@solutionboxusa.com",
+        cargo: "Gerente Comercial",
+        img: "https://raw.githubusercontent.com/RamiroSB/imagenes/main/Staff%20resized/PabloGuatelli1.jpg",
         category: "gerencia"
     },
     {

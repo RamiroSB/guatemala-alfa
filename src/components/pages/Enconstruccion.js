@@ -7,7 +7,7 @@ export const Enconstruccion = () => {
             <Container>
                 <h2>SECCIÓN EN CONSTRUCCION</h2>
                 <hr/>
-                <img src='http://www.solutionbox.com.sv/img/proximamente.png' style={{ display: "flex", margin: "0px auto", width: "100%"}} alt="proximamente"/>
+                <img src='https://raw.githubusercontent.com/RamiroSB/imagenes/main/proximamente.png' style={{ display: "flex", margin: "0px auto", width: "100%"}} alt="proximamente"/>
             </Container>
     </div>
   )

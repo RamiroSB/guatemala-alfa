@@ -8,6 +8,7 @@ export const Formulario = () => {
         apellido: '',
         email: '',
         emailConfirm: '',
+        cv:'',
     })
 
     const handleInputChange = (e) => {        
@@ -74,6 +75,16 @@ export const Formulario = () => {
                                 autoComplete='off'
                             />
                             {values.emailConfirm !== values.email && <small></small>}
+
+                            <p>Ingrese su CV</p>
+                            <input
+                                onChange={handleInputChange}
+                                name="cv"
+                                value={values.cv}
+                                className="ingreseCV"
+                                type="file"
+                                
+                            />
 
                             <button type="submit" className="butn">Enviar</button>
                         </form>
