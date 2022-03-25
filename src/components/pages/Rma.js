@@ -117,7 +117,7 @@ export const Rma = () => {
                                 value={values.problema}
                                 className="textForm"
                                 type="text"
-                                placeholder="Describa su problema"
+                                placeholder="Describa su problema y su marca"
                                 rows= "2"
                                 autoComplete='off'
                             />
