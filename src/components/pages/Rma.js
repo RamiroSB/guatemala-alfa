@@ -20,7 +20,7 @@ export const Rma = () => {
         })
     }
     
-/* para prevenir que el formulario se envie y rompa la web ya que no tiene back */
+/* para prevenir que el formulario se envie y rompa la web ya que no tiene back, proximamente */
     const previeneEnvio = event => {
         event.preventDefault()
     }
