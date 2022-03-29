@@ -57,13 +57,7 @@ export const Rma = () => {
                             {values.razonSocial.length < 4 && <small></small>}
 
                             <input
-                                onChange={handleInputChange}
-                                name="factura"
-                                value={values.factura}
-                                className="textForm"
-                                type="text"
-                                placeholder="Numero de Factura"
-                            />
+                                onChan
                             {values.factura.length < 4 && <small></small>}
 
                             <input
@@ -97,39 +91,7 @@ export const Rma = () => {
                                 type="text"
                                 placeholder="Indique su vendedor"
                                 autoComplete='off'
-                            />
-                            {values.vendedor.length < 4 && <small></small>}
-
-                            <input
-                                onChange={handleInputChange}
-                                name="marca"
-                                value={values.marca}
-                                className="textForm"
-                                type="text"
-                                placeholder="Marca del producto"
-                                autoComplete='off'
-                            />
-                            {values.marca.length < 4 && <small></small>}
-
-                            <textarea style={{height:"5%"}}
-                                onChange={handleInputChange}
-                                name="problema"
-                                value={values.problema}
-                                className="textForm"
-                                type="text"
-                                placeholder="Describa su problema y su marca"
+                            /roblema y su marca"
                                 rows= "2"
                                 autoComplete='off'
-                            />
-                            {values.problema.length < 4 && <small></small>}
-
-
-                            
-
-                            <button type="submit" className="butn">Enviar</button>
-                        </form>
-                    </div>
-            }
-        </>
-    )
-}
+                         
