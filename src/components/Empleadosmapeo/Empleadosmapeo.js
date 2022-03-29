@@ -16,11 +16,10 @@ export const Empleadosmapeo = ({empleados}) => {
                         <img src={persona.img} className='imagenPersona' alt="Foto empleado/a"/>
                             <div className='card-body'>
                                 <h4 className='personaNombre'>{persona.nombre}</h4>
-                                <p className='personaCargo'>{persona.cargo}</p>
-                                <hr/>
+                                <p className='personaCargo mt-3'>{persona.cargo}</p>
+                                {/* <hr/>
                                 <p className='personaCorreo'>{persona.correo}</p>
-                                <p>{persona.email}</p>
-                                <p>{persona.movil}</p>
+                                <p>{persona.movil}</p> */}
                             </div>
                     </div>
                 ))
