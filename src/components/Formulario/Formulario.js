@@ -10,6 +10,8 @@ export const Formulario = () => {
         nombre: '',
         mensaje: '',
         email: '',
+        emailConfirm: '',
+        cv:'',
     })
 
     const handleInputChange = (e) => {        
@@ -74,6 +76,26 @@ export const Formulario = () => {
                                 required
                             />
 
+                            <input
+                                onChange={handleInputChange}
+                                name="emailConfirm"
+                                value={values.emailConfirm}
+                                className="textForm" 
+                                type="email"
+                                placeholder="Repita su e-mail"
+                                autoComplete='off'
+                            />
+                            {values.emailConfirm !== values.email && <small></small>}
+
+                            <p>Ingrese su CV</p>
+                            <input
+                                onChange={handleInputChange}
+                                name="cv"
+                                value={values.cv}
+                                className="ingreseCV"
+                                type="file"
+                            />
+
 
                             <button type="submit" className="butn">Enviar</button>
 
@@ -83,3 +105,6 @@ export const Formulario = () => {
         </>
     )
 }
+
+/* CDN
+<script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script> */
