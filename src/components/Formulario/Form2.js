@@ -34,7 +34,7 @@ return (
                     </p>
                     <p>
                         <label>Telefono</label>
-                        <input type="tel" name="telefono"/>
+                        <input type="tel" name="telefono" required/>
                     </p>
                     <p>
                         <label>Interes</label>
@@ -42,7 +42,7 @@ return (
                     </p>
                     <p className="block">
                         <label>Mensaje</label> 
-                        <textarea name="mensaje" rows="1"></textarea>
+                        <textarea name="mensaje" rows="1" required></textarea>
                     </p>
 
                     <button type="submit" className='enviaConsulta' id='botonSubmit'>Enviar</button>

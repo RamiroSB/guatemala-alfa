@@ -1,5 +1,7 @@
 import React, { useState } from 'react'
 
+import Swal from 'sweetalert2/dist/sweetalert2.js'
+
 export const Rma = () => {
 
     const [values, setValues] = useState({
@@ -20,10 +22,15 @@ export const Rma = () => {
         })
     }
     
-/* para prevenir que el formulario se envie y rompa la web ya que no tiene back, proximamente */
-    const previeneEnvio = event => {
-        event.preventDefault()
+    const handleSubmit = () => {
+        Swal.fire({
+            icon: 'success',
+            title: 'Mensaje enviado correctamente!',
+            text: 'Muchas gracias por su mensaje, nos estaremos comunicando a la brevedad',
+          })
+          
     }
+
 
 
     return (
@@ -34,7 +41,7 @@ export const Rma = () => {
                         <h2>Formulario de solicitud de RMA</h2>
                         <hr/>
 
-                        <form onSubmit={previeneEnvio}>
+                        <form action="http://localhost:8080/api/rma" method="POST" onSubmit={handleSubmit}>
                             <input
                                 onChange={handleInputChange}
                                 name="nombre"
@@ -42,9 +49,9 @@ export const Rma = () => {
                                 className="textForm"
                                 type="text"
                                 placeholder="Nombre y Apellido"
+                                required
                                 
                             />
-                            {values.nombre.length < 4 && <small></small>}
 
                             <input
                                 onChange={handleInputChange}
@@ -53,29 +60,29 @@ export const Rma = () => {
                                 className="textForm"
                                 type="text"
                                 placeholder="Razon Social"
+                                required
                             />
-                            {values.razonSocial.length < 4 && <small></small>}
 
                             <input
                                 onChange={handleInputChange}
                                 name="factura"
                                 value={values.factura}
                                 className="textForm"
-                                type="text"
+                                type="number"
                                 placeholder="Numero de Factura"
+                                required
                             />
-                            {values.factura.length < 4 && <small></small>}
 
-                            <input
+                            <input style={{height:"1%"}}
                                 onChange={handleInputChange}
                                 name="fechaFactura"
                                 value={values.fechaFactura}
                                 className="textForm"
-                                type="text"
+                                type="date"
                                 placeholder="Fecha de la factura"
                                 autoComplete='off'
+                                required
                             />
-                            {values.fechaFactura.length < 4 && <small></small>}
                             
                             <input
                                 onChange={handleInputChange}
@@ -85,8 +92,8 @@ export const Rma = () => {
                                 type="email"
                                 placeholder="E-mail"
                                 autoComplete='off'
+                                required
                             />
-                            {values.email.length < 4 && <small></small>}
 
 
                             <input
@@ -97,8 +104,8 @@ export const Rma = () => {
                                 type="text"
                                 placeholder="Indique su vendedor"
                                 autoComplete='off'
+                                required
                             />
-                            {values.vendedor.length < 4 && <small></small>}
 
                             <input
                                 onChange={handleInputChange}
@@ -108,8 +115,8 @@ export const Rma = () => {
                                 type="text"
                                 placeholder="Marca del producto"
                                 autoComplete='off'
+                                required
                             />
-                            {values.marca.length < 4 && <small></small>}
 
                             <textarea style={{height:"5%"}}
                                 onChange={handleInputChange}
@@ -120,11 +127,8 @@ export const Rma = () => {
                                 placeholder="Describa su problema"
                                 rows= "2"
                                 autoComplete='off'
+                                required
                             />
-                            {values.problema.length < 4 && <small></small>}
-
-
-                            
 
                             <button type="submit" className="butn">Enviar</button>
                         </form>

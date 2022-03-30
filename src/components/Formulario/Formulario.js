@@ -1,13 +1,15 @@
 import React, { useState } from 'react'
 import "./FormularioStyle.css"
 
+import Swal from 'sweetalert2/dist/sweetalert2.js'
+
+
 export const Formulario = () => {
 
     const [values, setValues] = useState({
         nombre: '',
-        apellido: '',
+        mensaje: '',
         email: '',
-        emailConfirm: '',
         cv:'',
     })
 
@@ -17,12 +19,21 @@ export const Formulario = () => {
             [e.target.name]: e.target.value
         })
     }
-    
-/* para prevenir que el formulario se envie y rompa la web ya que no tiene back */
-    const previeneEnvio = event => {
-        event.preventDefault()
-    }
 
+    const handleSubmit = () => {
+        Swal.fire({
+            icon: 'success',
+            title: 'Mensaje enviado correctamente!',
+            text: 'Muchas gracias por su mensaje, nos estaremos comunicando a la brevedad',
+          })
+          
+          /* setValues ( {
+            nombre: "",
+            mensaje: "",
+            email: "",
+        }) */
+    }
+ 
 
     return (
 
@@ -32,7 +43,7 @@ export const Formulario = () => {
                         <h2>Coloque sus datos!</h2>
                         <hr/>
 
-                        <form onSubmit={previeneEnvio}>
+                        <form action="http://localhost:8080/api/contacto" method="POST" onSubmit={handleSubmit}>
                             <input
                                 onChange={handleInputChange}
                                 name="nombre"
@@ -42,17 +53,16 @@ export const Formulario = () => {
                                 placeholder="Nombre"
                                 
                             />
-                            {values.nombre.length < 4 && <small></small>}
 
                             <input
                                 onChange={handleInputChange}
-                                name="apellido"
-                                value={values.apellido}
+                                name="mensaje"
+                                value={values.mensaje}
                                 className="textForm"
                                 type="text"
-                                placeholder="Apellido"
+                                placeholder="mensaje"
+                                required
                             />
-                            {values.apellido.length < 4 && <small></small>}
 
                             <input
                                 onChange={handleInputChange}
@@ -62,19 +72,8 @@ export const Formulario = () => {
                                 type="email"
                                 placeholder="E-mail"
                                 autoComplete='off'
+                                required
                             />
-                            {values.email.length < 4 && <small></small>}
-
-                            <input
-                                onChange={handleInputChange}
-                                name="emailConfirm"
-                                value={values.emailConfirm}
-                                className="textForm" 
-                                type="email"
-                                placeholder="Repita su e-mail"
-                                autoComplete='off'
-                            />
-                            {values.emailConfirm !== values.email && <small></small>}
 
                             <p>Ingrese su CV</p>
                             <input
@@ -83,10 +82,11 @@ export const Formulario = () => {
                                 value={values.cv}
                                 className="ingreseCV"
                                 type="file"
-                                
                             />
 
+
                             <button type="submit" className="butn">Enviar</button>
+
                         </form>
                     </div>
             }
