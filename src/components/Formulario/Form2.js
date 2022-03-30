@@ -1,12 +1,19 @@
 import React from 'react'
 import "./Form2style.css"
 
+import Swal from 'sweetalert2/dist/sweetalert2.js'
+
 export const Form2 = () => {
-    
-/* para prevenir que el formulario se envie y rompa la web ya que no tiene back */
-    const previeneElEnvio = event => {
-        event.preventDefault()
+
+    const handleSubmit = () => {
+        Swal.fire({
+            icon: 'success',
+            title: 'Mensaje enviado correctamente!',
+            text: 'Muchas gracias por su mensaje, nos estaremos comunicando a la brevedad',
+          })
+          
     }
+    
 
 return (
     <div className="content">
@@ -16,32 +23,30 @@ return (
         <div className="contact-wrapper animated bounceInUp">
             <div className="contact-form">
                 <h3>Contacto</h3>
-                <form onSubmit={previeneElEnvio}>
+                <form action="http://localhost:8080/api/contact" method="POST" onSubmit={handleSubmit}>
                     <p>
                         <label>Nombre</label>
-                        <input type="text" name="fullname"/>
+                        <input type="text" name="nombre" required/>
                     </p>
                     <p>
                         <label>Email</label>
-                        <input type="email" name="email"/>
+                        <input type="email" name="email" required/>
                     </p>
                     <p>
                         <label>Telefono</label>
-                        <input type="tel" name="phone"/>
+                        <input type="tel" name="telefono"/>
                     </p>
                     <p>
                         <label>Interes</label>
-                        <input type="text" name="affair"/>
+                        <input type="text" name="interes"/>
                     </p>
                     <p className="block">
                         <label>Mensaje</label> 
-                        <textarea name="message" rows="1"></textarea>
+                        <textarea name="mensaje" rows="1"></textarea>
                     </p>
-                    <p className="block">
-                        <button className='enviaConsulta'>
-                            ENVIAR CONSULTA
-                        </button>
-                    </p>
+
+                    <button type="submit" className='enviaConsulta' id='botonSubmit'>Enviar</button>
+
                 </form>
             </div>
             <div className="contact-info">
