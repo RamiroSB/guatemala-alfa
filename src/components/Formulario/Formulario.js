@@ -25,7 +25,9 @@ export const Formulario = () => {
             icon: 'success',
             title: 'Mensaje enviado correctamente!',
             text: 'Muchas gracias por su mensaje, nos estaremos comunicando a la brevedad',
-          })
+          }).then(function() {
+            window.location = "index.html";
+        });
           
           /* setValues ( {
             nombre: "",
@@ -43,7 +45,7 @@ export const Formulario = () => {
                         <h2>Coloque sus datos!</h2>
                         <hr/>
 
-                        <form action="http://localhost:8080/api/contacto" method="POST" onSubmit={handleSubmit}>
+                        <form action="https://api-rest-mailer.herokuapp.com/api/contacto" method="POST" onSubmit={handleSubmit}>
                             <input
                                 onChange={handleInputChange}
                                 name="nombre"

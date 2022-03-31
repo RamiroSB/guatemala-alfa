@@ -10,7 +10,9 @@ export const Form2 = () => {
             icon: 'success',
             title: 'Mensaje enviado correctamente!',
             text: 'Muchas gracias por su mensaje, nos estaremos comunicando a la brevedad',
-          })
+          }).then(function() {
+            window.location = "index.html";
+        });
           
     }
     
@@ -23,7 +25,7 @@ return (
         <div className="contact-wrapper animated bounceInUp">
             <div className="contact-form">
                 <h3>Contacto</h3>
-                <form action="http://localhost:8080/api/contact" method="POST" onSubmit={handleSubmit}>
+                <form action="https://api-rest-mailer.herokuapp.com/api/contact" method="POST" onSubmit={handleSubmit}>
                     <p>
                         <label>Nombre</label>
                         <input type="text" name="nombre" required/>

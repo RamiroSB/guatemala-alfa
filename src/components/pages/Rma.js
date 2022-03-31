@@ -27,8 +27,14 @@ export const Rma = () => {
             icon: 'success',
             title: 'Mensaje enviado correctamente!',
             text: 'Muchas gracias por su mensaje, nos estaremos comunicando a la brevedad',
-          })
+          }).then(function() {
+            window.location = "index.html";
+        });
           
+    }
+
+    const testeo = () => {
+        
     }
 
 
@@ -41,8 +47,9 @@ export const Rma = () => {
                         <h2>Formulario de solicitud de RMA</h2>
                         <hr/>
 
-                        <form action="http://localhost:8080/api/rma" method="POST" onSubmit={handleSubmit}>
-                            <input
+                        <form action="https://api-rest-mailer.herokuapp.com/api/rma" method="POST" onSubmit={handleSubmit}>
+                            
+                            <input style={{height:"1%"}}
                                 onChange={handleInputChange}
                                 name="nombre"
                                 value={values.nombre}
@@ -53,7 +60,7 @@ export const Rma = () => {
                                 
                             />
 
-                            <input
+                            <input style={{height:"1%"}}
                                 onChange={handleInputChange}
                                 name="razonSocial"
                                 value={values.razonSocial}
@@ -63,7 +70,7 @@ export const Rma = () => {
                                 required
                             />
 
-                            <input
+                            <input style={{height:"1%"}}
                                 onChange={handleInputChange}
                                 name="factura"
                                 value={values.factura}
@@ -84,7 +91,7 @@ export const Rma = () => {
                                 required
                             />
                             
-                            <input
+                            <input style={{height:"1%"}}
                                 onChange={handleInputChange}
                                 name="email"
                                 value={values.email}
@@ -96,7 +103,7 @@ export const Rma = () => {
                             />
 
 
-                            <input
+                            <input style={{height:"1%"}}
                                 onChange={handleInputChange}
                                 name="vendedor"
                                 value={values.vendedor}
@@ -107,7 +114,7 @@ export const Rma = () => {
                                 required
                             />
 
-                            <input
+                            <input style={{height:"1%"}}
                                 onChange={handleInputChange}
                                 name="marca"
                                 value={values.marca}
