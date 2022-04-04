@@ -33,10 +33,6 @@ export const Rma = () => {
           
     }
 
-    const testeo = () => {
-        
-    }
-
 
 
     return (
