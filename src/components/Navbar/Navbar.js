@@ -25,25 +25,28 @@ export default class Barra1 extends Component {
                 </NavDropdown> */}
 
                 <NavDropdown title="MARCAS" id="navbarScrollingDropdown">
-                  <NavDropdown.Item><Link to="/marcas/ADATA" className='dropdown-item mod'>ADATA</Link></NavDropdown.Item>
-                  <NavDropdown.Item><Link to="/marcas/AMD" className='dropdown-item mod'>AMD</Link></NavDropdown.Item>
-                  <NavDropdown.Item><Link to="/marcas/AMERICAN-POWER-CONVERSION" className='dropdown-item mod'>AMERICAN POWER CONVERSION</Link></NavDropdown.Item>
-                  <NavDropdown.Item><Link to="/marcas/APPLE" className='dropdown-item mod'>APPLE</Link></NavDropdown.Item>
+                  <NavDropdown.Item><Link to="/marcas/APC" className='dropdown-item mod'>APC</Link></NavDropdown.Item>
+                  {/* <NavDropdown.Item><Link to="/marcas/APPLE" className='dropdown-item mod'>APPLE</Link></NavDropdown.Item> */}
                   <NavDropdown.Item><Link to="/marcas/ARUBA-NETWORK-WIRED" className='dropdown-item mod'>ARUBA NETWORK WIRED</Link></NavDropdown.Item>
-                  <NavDropdown.Item><Link to="/marcas/ARUBA-WIRELESS" className='dropdown-item mod'>ARUBA WIRELESS</Link></NavDropdown.Item>
                   <NavDropdown.Item><Link to="/marcas/CAMBIUM-NETWORKS" className='dropdown-item mod'>CAMBIUM NETWORKS</Link></NavDropdown.Item>
                   <NavDropdown.Item><Link to="/marcas/EVGA" className='dropdown-item mod'>EVGA</Link></NavDropdown.Item>
                   <NavDropdown.Item><Link to="/marcas/GRANDSTREAM" className='dropdown-item mod'>GRANDSTREAM</Link></NavDropdown.Item>
+                  <NavDropdown.Item><Link to="/marcas/HSS" className='dropdown-item mod'>HP SERVERS</Link></NavDropdown.Item>
+                  <NavDropdown.Item><Link to="/marcas/HPS" className='dropdown-item mod'>HP STORAGE</Link></NavDropdown.Item>
+                  <NavDropdown.Item><Link to="/marcas/TSS" className='dropdown-item mod'>HP SERVICES</Link></NavDropdown.Item>
+                  <NavDropdown.Item><Link to="/marcas/HUAWEI" className='dropdown-item mod'>HUAWEI</Link></NavDropdown.Item>
                   <NavDropdown.Item><Link to="/marcas/JABRA" className='dropdown-item mod'>JABRA</Link></NavDropdown.Item>
                   <NavDropdown.Item><Link to="/marcas/LENOVO" className='dropdown-item mod'>LENOVO</Link></NavDropdown.Item>
                   <NavDropdown.Item><Link to="/marcas/MERCUSYS" className='dropdown-item mod'>MERCUSYS</Link></NavDropdown.Item>
                   <NavDropdown.Item><Link to="/marcas/MIKROTIK" className='dropdown-item mod'>MIKROTIK</Link></NavDropdown.Item>
+                  <NavDropdown.Item><Link to="/marcas/QNAP" className='dropdown-item mod'>QNAP</Link></NavDropdown.Item>
                   <NavDropdown.Item><Link to="/marcas/POWERCOLOR" className='dropdown-item mod'>POWERCOLOR</Link></NavDropdown.Item>
                   <NavDropdown.Item><Link to="/marcas/SAMSUNG-DISPLAY" className='dropdown-item mod'>SAMSUNG DISPLAY</Link></NavDropdown.Item>
                   <NavDropdown.Item><Link to="/marcas/SAMSUNG-MONITORS" className='dropdown-item mod'>SAMSUNG MONITORS</Link></NavDropdown.Item>
                   <NavDropdown.Item><Link to="/marcas/TP-LINK" className='dropdown-item mod'>TP LINK</Link></NavDropdown.Item>
                   <NavDropdown.Item><Link to="/marcas/UBIQUITI" className='dropdown-item mod'>UBIQUITI</Link></NavDropdown.Item>
                   <NavDropdown.Item><Link to="/marcas/YEALINK" className='dropdown-item mod'>YEALINK</Link></NavDropdown.Item>
+                  <NavDropdown.Item><Link to="/marcas/YEASTAR" className='dropdown-item mod'>YEASTAR</Link></NavDropdown.Item>
                 </NavDropdown>
 
                 <NavDropdown title="NOSOTROS" id="navbarScrollingDropdown">
