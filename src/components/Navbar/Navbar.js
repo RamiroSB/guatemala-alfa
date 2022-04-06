@@ -40,7 +40,7 @@ export default class Barra1 extends Component {
                   <NavDropdown.Item><Link to="/marcas/MERCUSYS" className='dropdown-item mod'>MERCUSYS</Link></NavDropdown.Item>
                   <NavDropdown.Item><Link to="/marcas/MIKROTIK" className='dropdown-item mod'>MIKROTIK</Link></NavDropdown.Item>
                   <NavDropdown.Item><Link to="/marcas/QNAP" className='dropdown-item mod'>QNAP</Link></NavDropdown.Item>
-                  <NavDropdown.Item><Link to="/marcas/POWERCOLOR" className='dropdown-item mod'>POWERCOLOR</Link></NavDropdown.Item>
+                  <NavDropdown.Item><Link to="/marcas/ITOKII" className='dropdown-item mod'>ITOKII</Link></NavDropdown.Item>
                   <NavDropdown.Item><Link to="/marcas/SAMSUNG-DISPLAY" className='dropdown-item mod'>SAMSUNG DISPLAY</Link></NavDropdown.Item>
                   <NavDropdown.Item><Link to="/marcas/SAMSUNG-MONITORS" className='dropdown-item mod'>SAMSUNG MONITORS</Link></NavDropdown.Item>
                   <NavDropdown.Item><Link to="/marcas/TP-LINK" className='dropdown-item mod'>TP LINK</Link></NavDropdown.Item>

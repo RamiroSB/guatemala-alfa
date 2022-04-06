@@ -52,18 +52,9 @@ export const Formulario = () => {
                                 value={values.nombre}
                                 className="textForm"
                                 type="text"
-                                placeholder="Nombre"
-                                
-                            />
-
-                            <input
-                                onChange={handleInputChange}
-                                name="mensaje"
-                                value={values.mensaje}
-                                className="textForm"
-                                type="text"
-                                placeholder="mensaje"
+                                placeholder="Nombre y Apellido"
                                 required
+                                
                             />
 
                             <input
@@ -73,6 +64,18 @@ export const Formulario = () => {
                                 className="textForm"
                                 type="email"
                                 placeholder="E-mail"
+                                autoComplete='off'
+                                required
+                            />
+
+                            <textarea style={{height:"5%"}}
+                                onChange={handleInputChange}
+                                name="mensaje"
+                                value={values.mensaje}
+                                className="textForm"
+                                type="text"
+                                placeholder="Mensaje"
+                                rows= "2"
                                 autoComplete='off'
                                 required
                             />

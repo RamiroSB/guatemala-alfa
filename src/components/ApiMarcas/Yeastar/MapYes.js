@@ -22,6 +22,7 @@ export const MapYes = () => {
 
 
     let aux = stock.data;
+    let img = 'https://via.placeholder.com/550/b8b6b6/000000/?text=PRODUCTO-SIN-IMAGEN'
   
     return (
         <Container className='my-5'>
@@ -32,13 +33,16 @@ export const MapYes = () => {
               aux && aux.map( (index)=> (
                     <div className='card flexContainer mx-auto' style={{width: "22rem", margin: "10px"}} key={index.Alias} >
                     <div className='card-body editC'>
-                        <img src='https://via.placeholder.com/550/b8b6b6/000000/?text=PRODUCTO-SIN-IMAGEN' alt='ImagenProducto' className='imgProd'/>
+                    <img src={index.Imagen ? process.env.PUBLIC_URL + "/articulos/" + index.Imagen : img} alt='PRODUCTO SIN IMAGEN' className='imgProd'/>
                         <hr/>
-                            <p style={{textAlign: "center"}} >{index.Nombre}</p>
-                            <p>{index.Marca}</p>
-                            <p className='Descripcion'>Codigo#{index.Alias}</p>
-                            <Button className='botonInfo'>VER PRODUCTO</Button>
-                            <Button className='botonLogin'>LOGIN</Button>
+                        
+                            <div className="contenedorCard">
+                                <p style={{textAlign: "center"}} >{index.Nombre}</p>
+                                <p>{index.Marca}</p>
+                                <p className='Descripcion'>Codigo#{index.Alias}</p>
+                                <Button className='botonInfo'>VER PRODUCTO</Button>
+                                <Button className='botonLogin'>LOGIN</Button>
+                            </div>
                     </div>
                 </div>
                   ))

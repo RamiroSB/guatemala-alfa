@@ -32,6 +32,7 @@ import { MapTpl } from './components/ApiMarcas/TPLINK/MapTpl';
 import { MapUbi } from './components/ApiMarcas/Ubiquiti/MapUbi';
 import { MapYea } from './components/ApiMarcas/Yealink/MapYea';
 import { MapYes } from './components/ApiMarcas/Yeastar/MapYes';
+import { MapIto } from './components/ApiMarcas/Itokii/MapIto';
 
 function App() {
   return (
@@ -74,6 +75,7 @@ function App() {
               <Route path="/marcas/UBIQUITI" element= { <MapUbi/>}/>
               <Route path="/marcas/YEALINK" element= { <MapYea/>}/>
               <Route path="/marcas/YEASTAR" element= { <MapYes/>}/>
+              <Route path="/marcas/ITOKII" element= { <MapIto/>}/>
 
             </Routes>
 
