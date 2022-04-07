@@ -48,7 +48,7 @@ export const Footer = () => {
                 <ul className="footer_ul_amrc">
                 <li><Link to="nuestraempresa">La Empresa</Link></li>
                 <li><Link to="trabajaconnosotros">Trabaja con nosotros</Link></li>
-                <li><a href="https://www.solutionbox.com.ar/rma">RMA</a></li>
+                <li><Link to="rma">RMA</Link></li>
                 <li><a href="https://www.solutionbox.com.ar/info-impositiva">Legajo Impositivo</a></li>
                 </ul>
             </div>

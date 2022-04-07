@@ -12,6 +12,7 @@ export const Rma = () => {
         email: '',
         vendedor: '',
         marca: '',
+        fpdf: '',
         problema: '',
     })
 
@@ -44,7 +45,8 @@ export const Rma = () => {
                         <hr/>
 
                         <form action="https://api-rest-mailer.herokuapp.com/api/rma" method="POST" onSubmit={handleSubmit}>
-                            
+
+                        <p className='formP'>Nombre y Apellido</p> 
                             <input style={{height:"1%"}}
                                 onChange={handleInputChange}
                                 name="nombre"
@@ -56,26 +58,29 @@ export const Rma = () => {
                                 
                             />
 
+                            <p className='formP'>Razon Social</p> 
                             <input style={{height:"1%"}}
                                 onChange={handleInputChange}
                                 name="razonSocial"
                                 value={values.razonSocial}
                                 className="textForm"
                                 type="text"
-                                placeholder="Razon Social"
+                                placeholder="Ingrese su Razon Social"
                                 required
                             />
 
+                            <p className='formP'>Factura</p> 
                             <input style={{height:"1%"}}
                                 onChange={handleInputChange}
                                 name="factura"
                                 value={values.factura}
                                 className="textForm"
                                 type="number"
-                                placeholder="Numero de Factura"
+                                placeholder="Ingrese el numero de Factura"
                                 required
                             />
 
+                            <p className='formP'>Fecha de la Factura</p> 
                             <input style={{height:"1%"}}
                                 onChange={handleInputChange}
                                 name="fechaFactura"
@@ -86,19 +91,19 @@ export const Rma = () => {
                                 autoComplete='off'
                                 required
                             />
-                            
+                            <p className='formP'>Email</p> 
                             <input style={{height:"1%"}}
                                 onChange={handleInputChange}
                                 name="email"
                                 value={values.email}
                                 className="textForm"
                                 type="email"
-                                placeholder="E-mail"
+                                placeholder="Ingrese su e-mail"
                                 autoComplete='off'
                                 required
                             />
 
-
+                            <p className='formP'>Vendedor</p> 
                             <input style={{height:"1%"}}
                                 onChange={handleInputChange}
                                 name="vendedor"
@@ -110,6 +115,7 @@ export const Rma = () => {
                                 required
                             />
 
+                            <p className='formP'>Marca del producto</p> 
                             <input style={{height:"1%"}}
                                 onChange={handleInputChange}
                                 name="marca"
@@ -131,6 +137,15 @@ export const Rma = () => {
                                 rows= "2"
                                 autoComplete='off'
                                 required
+                            />
+
+                            <p className='formP mb-2'>(OPCIONAL) Ingrese su factura, formato PDF</p>
+                            <input
+                                onChange={handleInputChange}
+                                name="fpdf"
+                                value={values.fpdf}
+                                className="fpdf"
+                                type="file"
                             />
 
                             <button type="submit" className="butn">Enviar</button>

@@ -27,7 +27,7 @@ return (
                 <h3>Contacto</h3>
                 <form action="https://api-rest-mailer.herokuapp.com/api/contact" method="POST" onSubmit={handleSubmit}>
                     <p>
-                        <label>Nombre</label>
+                        <label>Nombre y Apellido</label>
                         <input type="text" name="nombre" required/>
                     </p>
                     <p>
@@ -39,8 +39,8 @@ return (
                         <input type="tel" name="telefono" required/>
                     </p>
                     <p>
-                        <label>Interes</label>
-                        <input type="text" name="interes"/>
+                        <label>Producto de interes</label>
+                        <input type="text" name="interes" required/>
                     </p>
                     <p className="block">
                         <label>Mensaje</label> 

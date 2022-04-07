@@ -11,7 +11,6 @@ export const MapHua = () => {
         try {
             const res = await Service.getProducts()
             setStock(res)
-            console.log(res)
         } catch (error) {
             console.log(error)
         }

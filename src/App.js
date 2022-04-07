@@ -33,6 +33,8 @@ import { MapUbi } from './components/ApiMarcas/Ubiquiti/MapUbi';
 import { MapYea } from './components/ApiMarcas/Yealink/MapYea';
 import { MapYes } from './components/ApiMarcas/Yeastar/MapYes';
 import { MapIto } from './components/ApiMarcas/Itokii/MapIto';
+import { SelectorRma } from './components/pages/SelectorRma';
+import { RmaItemFallado } from './components/pages/RmaItemFallado';
 
 function App() {
   return (
@@ -51,7 +53,9 @@ function App() {
               <Route path='trabajaconnosotros' element= { <TrabajaConNosotros/> } />
               <Route path='contacto' element= { <Contacto/> } />
               <Route path='capacitaciones' element= { <Capacitaciones/> } />
-              <Route path='rma' element= { <Rma/> } />
+              <Route path='rma2' element= { <Rma/> } />
+              <Route path='rma' element= { <SelectorRma/> } />
+              <Route path='rma3' element= { <RmaItemFallado/> } />
               <Route path='*' element= { <Navigate to ="/" /> } />
               <Route path="/marcas/:catId" element= { <StockLista/> }/>
               
