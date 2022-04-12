@@ -3,7 +3,35 @@ import {Navbar, Nav, NavDropdown, Form, FormControl, Button, Container} from 're
 import './Navbar.css'
 import { Link } from 'react-router-dom'
 
+import Swal from 'sweetalert2/dist/sweetalert2.js'
+
+const loginForm = () => {
+  Swal.fire({
+      title: 'Ingrese a su cuenta',
+      html: `<input type="text" id="login" class="swal2-input" placeholder="Username">
+      <input type="password" id="password" class="swal2-input" placeholder="Password">`,
+      confirmButtonText: 'Sign in',
+      focusConfirm: false,
+      preConfirm: () => {
+        const login = Swal.getPopup().querySelector('#login').value
+        const password = Swal.getPopup().querySelector('#password').value
+        if (!login || !password) {
+          Swal.showValidationMessage(`Please enter login and password`)
+        }
+        return { login: login, password: password }
+      }
+    }).then((result) => {
+      Swal.fire({
+          icon: 'error',
+          title: '',
+          text: 'Pongase en contacto con el Digital Business Manager (martin_anusic@solutionbox.com.ar) de Solution Box',
+        })
+    })
+}
+
+
 export default class Barra1 extends Component {
+
   render() {
     return <div>
         <Navbar bg="dark" expand="lg" className='barra'>
@@ -53,7 +81,7 @@ export default class Barra1 extends Component {
                   <NavDropdown.Item> <Link to="nuestraempresa" className='dropdown-item mod'>LA EMPRESA</Link></NavDropdown.Item>
                   <NavDropdown.Item> <Link to="contacto" className='dropdown-item mod'>CONTACTO</Link></NavDropdown.Item>
                   <NavDropdown.Item> <Link to="trabajaconnosotros" className='dropdown-item mod'>TRABAJA CON NOSOTROS</Link></NavDropdown.Item>
-                  <NavDropdown.Item href="https://www.solutionbox.com.ar/downloads/usuario/Cumplimiento_3.pdf" target="_blank">POLITICA ANTICORRUPCION</NavDropdown.Item>
+                  <NavDropdown.Item href="pdf/Anticorrupcion.pdf" target="_blank">POLITICA ANTICORRUPCION</NavDropdown.Item>
 
                   <NavDropdown.Item> <Link to="/empleados" className='dropdown-item mod'>STAFF</Link></NavDropdown.Item>
 
@@ -71,7 +99,7 @@ export default class Barra1 extends Component {
                 </NavDropdown>
 
                 <NavDropdown title="LINKS UTILES" id="navbarScrollingDropdown">
-                  <NavDropdown.Item> <Link to="newsletter" className='dropdown-item mod'>SUCRIBITE A NUESTRO NEWSLETTER</Link></NavDropdown.Item>
+                  {/* <NavDropdown.Item> <Link to="newsletter" className='dropdown-item mod'>SUCRIBITE A NUESTRO NEWSLETTER</Link></NavDropdown.Item> */}
                   <NavDropdown.Item href="https://www.solutionbox.com.ar/info-impositiva">LEGAJO IMPOSITIVO</NavDropdown.Item>
                   <NavDropdown.Item><Link to="/rma" className='dropdown-item mod'>RMA</Link></NavDropdown.Item>
                   <NavDropdown.Item href="http://www.solutionboxusa.com/downloads/catalogo-SB-Group.pdf" target="_blank">CATALOGO DIGITAL</NavDropdown.Item>
@@ -100,7 +128,7 @@ export default class Barra1 extends Component {
                 
 
               </Nav>
-              <Form className="d-flex">
+              {/* <Form className="d-flex barritaForm">
                 <FormControl
                   type="search"
                   placeholder="Busque su producto"
@@ -108,11 +136,11 @@ export default class Barra1 extends Component {
                   aria-label="Search"
                 />
                 <Button variant="outline-danger">Buscar</Button>
-              </Form>
+              </Form> */}
 
-              {/* <Nav>
-              <Button variant="outline-danger" className='botonLogin'>REGISTRARSE / LOGIN</Button>
-              </Nav> */}
+              <Nav>
+              <div className='contenedorLogin'><Button variant="outline-danger" className='botonLoguearse' onClick={loginForm}>Login</Button></div>
+              </Nav>
 
 
 

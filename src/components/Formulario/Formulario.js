@@ -45,7 +45,12 @@ export const Formulario = () => {
                         <h2>Coloque sus datos!</h2>
                         <hr/>
 
-                        <form action="https://api-rest-mailer.herokuapp.com/api/contacto" method="POST" onSubmit={handleSubmit}>
+                        {/* comentado para testeo */}
+                        <form action="http://localhost:8080/api/contacto" method="POST" onSubmit={handleSubmit}> 
+
+                        {/* <form action="https://api-rest-mailer.herokuapp.com/api/contacto" method="POST" onSubmit={handleSubmit}> */}
+
+                         
                             <input
                                 onChange={handleInputChange}
                                 name="nombre"

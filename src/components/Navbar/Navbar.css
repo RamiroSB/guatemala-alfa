@@ -71,3 +71,22 @@
       width: 15%;
     }
   }
+
+  body.swal2-shown > [aria-hidden="true"] {
+    transition: 0.1s filter;
+    filter: blur(10px);
+  }
+
+  .contenedorLogin {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .botonLoguearse {
+      width: 100%;
+  }
+
+  .barritaForm{
+      margin: 10px;
+  }

@@ -8,13 +8,13 @@ export const RmaItemFallado = () => {
 
   return (
       <Container>
-          <div class="form-group">
+          <div className="form-group">
             <h2>CONDICIONES DE RMA</h2>
             <select
-              class="form-select"
+              className="form-select"
               onChange={(e) => setSelectedOption(e.target.value)}
             >
-                <option selected>Seleccione la marca...</option>
+                <option >Seleccione la marca...</option>
 
                 <option value="5">ARUBA</option>
                 <option value="6">CAMBIUM NETWORKS</option>
@@ -39,7 +39,7 @@ export const RmaItemFallado = () => {
           </div>
 
           {selectedOption === "5" && (
-            <div class="form-group">
+            <div className="form-group">
               <p className="text-left">
               <b>Condiciones RMA HEWLETT PACKARD - Networking and servers</b><br/>
               Garantía del producto: 12 meses.<br/>
@@ -50,7 +50,7 @@ export const RmaItemFallado = () => {
           )}
 
         {selectedOption === "6" && (
-            <div class="form-group">
+            <div className="form-group">
               <p className="text-left">
               <b>Condiciones RMA CAMBIUM NETWORKS</b><br/>
               La garantia es gestionada a traves de la marca<br/><br/>
@@ -60,7 +60,7 @@ export const RmaItemFallado = () => {
           )}
 
           {selectedOption === "26" && (
-            <div class="form-group">
+            <div className="form-group">
               <p className="text-left">
               <b>Condiciones RMA TP LINK </b><br/>
               Garantía del producto: 12 meses.<br/>
@@ -73,7 +73,7 @@ export const RmaItemFallado = () => {
           )}
 
           {selectedOption === "9" && (
-            <div class="form-group">
+            <div className="form-group">
               <p className="text-left">
               {/* <img src="https://www.solutionbox.com.do/images/carrusel/grandstream.png" alt="grandstream"/><br/> */}
               <b>Condiciones RMA GRANDSTREAM</b><br/>
@@ -89,7 +89,7 @@ export const RmaItemFallado = () => {
           )}
 
         {selectedOption === "27" && (
-            <div class="form-group">
+            <div className="form-group">
               <p className="text-left">
               <b>Condiciones RMA UBIQUITI</b><br/>
                 Garantía del producto 12 meses.<br/>
@@ -102,7 +102,7 @@ export const RmaItemFallado = () => {
           )}
 
         {selectedOption === "16" && (
-            <div class="form-group">
+            <div className="form-group">
               <p className="text-left">
               <b>Condiciones RMA JABRA</b><br/>
               Productos con cable e inalámbricos: dos (2) años desde la fecha de compra de los productos<br/>
@@ -116,7 +116,7 @@ export const RmaItemFallado = () => {
           )}
 
         {selectedOption === "13" && (
-            <div class="form-group">
+            <div className="form-group">
               <p className="text-left">
               <b>Condiciones RMA HUAWEI</b><br/>
               Garantía del producto: 12 meses.<br/>
@@ -129,7 +129,7 @@ export const RmaItemFallado = () => {
           )}
 
         {selectedOption === "15" && (
-            <div class="form-group">
+            <div className="form-group">
               <p className="text-left">
               <b>Condiciones RMA INTEL</b><br/>
               Garantía del producto: 12 meses.<br/>
@@ -142,7 +142,7 @@ export const RmaItemFallado = () => {
           )}
 
         {selectedOption === "17" && (
-            <div class="form-group">
+            <div className="form-group">
               <p className="text-left">
               <b>Condiciones RMA LENOVO</b><br/>
                 Garantía del producto: de 12 a 36 meses, dependiendo del producto<br/>
@@ -157,7 +157,7 @@ export const RmaItemFallado = () => {
           )}
 
         {selectedOption === "20" && (
-            <div class="form-group">
+            <div className="form-group">
               <p className="text-left">
               <b>Condiciones RMA MIKROTIK</b><br/>
               Garantía del producto: 10 meses.<br/>
@@ -170,7 +170,7 @@ export const RmaItemFallado = () => {
           )}
 
         {selectedOption === "22" && (
-            <div class="form-group">
+            <div className="form-group">
               <p className="text-left">
               <b>Condiciones RMA QNAP</b><br/>
               Garantía del producto: 10 meses.<br/>
@@ -183,7 +183,7 @@ export const RmaItemFallado = () => {
           )}
 
         {selectedOption === "28" && (
-            <div class="form-group">
+            <div className="form-group">
               <p className="text-left">
               <b>Condiciones RMA YEALINK</b><br/>
               Garantía del producto: 24 meses.<br/>
@@ -194,7 +194,7 @@ export const RmaItemFallado = () => {
           )}
 
         {selectedOption === "29" && (
-            <div class="form-group">
+            <div className="form-group">
               <p className="text-left">
               <b>Condiciones RMA YEASTAR</b><br/>
               Enviar email a support@yeastar.zendesk.com Solicitando RMA con los siguientes datos.<br/>
