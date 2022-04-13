@@ -12,7 +12,7 @@ export const Rma = () => {
         email: '',
         vendedor: '',
         marca: '',
-        fpdf: '',
+        /* fpdf: '', */
         problema: '',
     })
 
@@ -139,14 +139,14 @@ export const Rma = () => {
                                 required
                             />
 
-                            <p className='formP mb-2'>(OPCIONAL) Ingrese su factura, formato PDF</p>
+                            {/* <p className='formP mb-2'>(OPCIONAL) Ingrese su factura, formato PDF</p>
                             <input
                                 onChange={handleInputChange}
                                 name="fpdf"
                                 value={values.fpdf}
                                 className="fpdf"
                                 type="file"
-                            />
+                            /> */}
 
                             <button type="submit" className="butn">Enviar</button>
                         </form>

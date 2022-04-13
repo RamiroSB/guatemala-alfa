@@ -1,6 +1,7 @@
 import "../CardStyle.css"
 import React, {useState, useEffect} from 'react'
 import { Container, Row, Button } from 'react-bootstrap'
+import loader from "../../assets/loader.gif"
 
 import Swal from 'sweetalert2/dist/sweetalert2.js'
 
@@ -64,7 +65,7 @@ export const MapHua = () => {
               {!aux ? <h2>Cargando productos</h2> : <h2>PRODUCTOS EN STOCK HUAWEI</h2>}
                 <hr/>
               <Row>   
-              {!aux ? <div className='gifCargando'><img src={"https://i.gifer.com/WMDx.gif"} alt="Cargando..." className="logosb" /></div> :
+              {!aux ? <div className='gifCargando'><img src={loader } alt="Cargando..." className="logosb" /></div> :
               aux && aux.map( (index)=> (
                   
                     <div className='card flexContainer mx-auto' style={{width: "22rem", margin: "10px"}} key={index.Alias} >

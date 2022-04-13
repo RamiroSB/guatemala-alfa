@@ -46,9 +46,9 @@ export const Formulario = () => {
                         <hr/>
 
                         {/* comentado para testeo */}
-                        <form action="http://localhost:8080/api/contacto" method="POST" onSubmit={handleSubmit}> 
+                        {/* <form action="http://localhost:8080/api/contacto" method="POST" onSubmit={handleSubmit}>  */}
 
-                        {/* <form action="https://api-rest-mailer.herokuapp.com/api/contacto" method="POST" onSubmit={handleSubmit}> */}
+                        <form action="https://api-rest-mailer.herokuapp.com/api/contacto" method="POST" onSubmit={handleSubmit}>
 
                          
                             <input

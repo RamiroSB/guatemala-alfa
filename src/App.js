@@ -80,7 +80,6 @@ function App() {
               <Route path="/marcas/YEALINK" element= { <MapYea/>}/>
               <Route path="/marcas/YEASTAR" element= { <MapYes/>}/>
               <Route path="/marcas/ITOKII" element= { <MapIto/>}/>
-
             </Routes>
 
         <Footer/>
