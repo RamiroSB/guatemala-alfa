@@ -36,7 +36,7 @@ export default class Barra1 extends Component {
     return <div>
         <Navbar bg="dark" expand="lg" className='barra'>
           <Container fluid>
-            <Navbar.Brand href="/"> <Link to="/"><img src='https://raw.githubusercontent.com/RamiroSB/imagenes/main/sbox-logo-Guatemala.png' alt="Logo de la pagina" className='setlogo'></img></Link></Navbar.Brand>
+            <Navbar.Brand href="/"> <Link to="/"><img src='https://raw.githubusercontent.com/RamiroSB/imagenes/main/sbox-logo-Guatemala1.png' alt="Logo de la pagina" className='setlogo'></img></Link></Navbar.Brand>
             <Navbar.Toggle aria-controls="navbarScroll" />
             <Navbar.Collapse id="navbarScroll">
               <Nav
