@@ -64,7 +64,7 @@ export const MapSMO = () => {
               {!aux ? <h2>Cargando productos</h2> : <h2>PRODUCTOS EN STOCK SAMSUNG DISPLAY</h2>}
                 <hr/>
               <Row>   
-              {!aux ? <div className='gifCargando'><img src={"https://i.gifer.com/WMDx.gif"} alt="Cargando..." className="logosb" /></div> :
+              {!aux ? <div className='gifCargando'><img src={loader} alt="Cargando..." className="logosb" /></div> :
               aux && aux.map( (index)=> (
                     <div className='card flexContainer mx-auto' style={{width: "22rem", margin: "10px"}} key={index.Alias} >
                     <div className='card-body editC'>
