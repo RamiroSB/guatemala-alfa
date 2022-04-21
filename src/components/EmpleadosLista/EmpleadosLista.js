@@ -2,8 +2,6 @@ import React, { useEffect, useState } from 'react'
 import { useParams } from 'react-router-dom'
 import { Empleadosmapeo } from '../Empleadosmapeo/Empleadosmapeo'
 import { PedirDatos } from '../helpers/PedirDatos'
-import { Loader } from '../Loader/Loader'
-
 
 export const EmpleadosLista = () => {
     const [loading, setLoading] = useState(false)
@@ -33,13 +31,12 @@ export const EmpleadosLista = () => {
   
     /* Termina funcion que valida staff */
 
-    /* retorna un ternario, en caso de que no este el mapeo muestra el componente loader */
+    /* retorna un ternario, en caso de que no este el mapeo muestra cargando */
     return (
              <>
                 {loading 
-                ? <Loader/>
-                : <Empleadosmapeo empleados={empleados}/>
-                    
+                ? <p>Cargando...</p>
+                : <Empleadosmapeo empleados={empleados}/> 
                 }
             </>
   )
