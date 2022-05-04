@@ -55,7 +55,7 @@ return (
                 <h4>Mas informacion</h4>
                 <ul>
                     <li><i className="fas fa-map-marker-alt"></i> Horario: Lunes a Viernes de 8.30 a 18.30hs</li>
-                    <li><i className="fas fa-phone"></i> Teléfono: +54 11 6091-1200</li>
+                    <li><i className="fas fa-phone"></i> Teléfono: +502 2461-8400</li>
                     <li><i className="fas fa-envelope-open-text"></i> E-mail: info@solutionbox.com.gt</li>
                 </ul>
                 <p>Dirección</p>
